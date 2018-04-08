@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2935744-14"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-2935744-14');
+        </script>
         <title>Blog - Terapie holistyczne Gabriela Wachowiak</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,19 +46,26 @@
         </div>    
         <footer>
            <ul>
-               <hr>
-               <li>Kontakt: <b>Gabriela Wachowiak</b></li>
-               <li><p>tel. <b>508 722 384</b></p></li>
-               <li><p>e-mail: <b>gabriela.wachowiak@gmail.com</b></p></li>
+               <hr/>
+               <li>Kontakt: Gabriela Wachowiak</li>
+               <li><p id="hidden" onclick="myFunction()">508 pokaż numer</p></li>
+                <li><a class="email_adress" href="mailto:gabriela.wachowiak@gmail.com"><p>gabriela.wachowiak(at)gmail.com</p></a></li>
             </ul>
             <div class="contact_footer">
                 <hr>
-                <p>Kontakt: </p><span><b>Gabriela Wachowiak</b></span> 
-                <p>tel. </p><span><b>508 722 384</b></span><p>e-mail: </p><span><b>gabriela.wachowiak@gmail.com</b></span>
+                <p>Kontakt: </p><span>Gabriela Wachowiak</span> 
+                <p>tel. </p><span id="hiddenMore" onclick="myFunctionMore()"> 508 pokaż numer</span>
+                <p>e-mail: </p>
+                <a class="email_adress" href="mailto:gabriela.wachowiak@gmail.com"><span>gabriela.wachowiak(at)gmail.com</span></a>
             </div>
         </footer>
-
         <script>
+        function myFunction() {
+            document.getElementById("hidden").innerHTML = "508 722 384";
+        }  
+        function myFunctionMore() {
+            document.getElementById("hiddenMore").innerHTML = "508 722 384";
+        }
             function toggle(elementId) {
                 
                 var element = document.getElementById(elementId);

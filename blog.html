@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2935744-14"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-2935744-14');
+        </script>
         <title>Blog - Terapie holistyczne Gabriela Wachowiak</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -64,6 +73,34 @@
             <div class="left_clog_the_hole"><div class="foto"></div></div>
             <div class="register">
                 
+                <div class="registry">
+                    <div class="foto"><img src="images/wizytowka_foto_ZD.jpg"></div>
+                    <div class="content_registry">
+                        <div class="date"><p>4 kwietnia 2018</p></div>
+                        <h3>Terapia grupowa z indywidualnym podejściem wg metody Zdenko DOMANČIĆA</h3>
+                        <span>
+                            Terapia grupowa z indywidualnym podejściem<br/>
+                            wg metody Zdenko DOMANČIĆA<br/>
+                            (bioenergoterapia jako uzupełnienie terapii konwencjonalnej)<br/><br/>
+                            Metoda jest naturalna, prosta, nieinwazyjna, <br/>
+                            ustandaryzowana, <br/>
+                            a jej efektywność została potwierdzona naukowo!!!<br/><br/>
+
+                            Termin terapii 16.04 – 19.04.2018 r. godz. 18.00<br/>
+                            Metodę tę można stosować we wspomagającym leczeniu takich chorób jak:<br/>
+                            cukrzyca, astma, choroba Parkinsona, Alzheimer, artretyzm, Hashimoto, żółtaczka typu C,
+                            nowotwory, bezpłodność, żylaki, choroby neurologiczne, rwa kulszowa, reumatoidalne zapalenie 
+                            stawów, choroby krwi, kręgosłupa, serca, wątroby, nerek, osteoporoza, gangrena, depresja, 
+                            zmęczenie, osłabiony układ odpornościowy i inne.Terapia obowiązkowo trwa 4 dni z rzędu. 
+                            Energia oddziałuje na ciało jeszcze przez okres 14 – 21 dni po zabiegu i w tym czasie 
+                            zachodzą dalsze zmiany stanu zdrowia.
+                            Terapia wykonywana jest na podstawie diagnozy lekarskiej!!!
+                        </span>
+                    <!--<div class="expand">Rozwiń</div> -->   
+                    <div class="clear"></div>
+                    </div>
+                </div>
+                
                 <div class="content_registry">
                     <div class="registry">
                         <div class="foto"><img src="images/2013_zdenko2.jpg"></div>
@@ -79,7 +116,6 @@
                     <div class="clear"></div>
                     </div>
                 <div class="registry">
-                    
                     <div class="foto"><img src="images/wizytowka_foto_ZD.jpg"></div>
                     <div class="content_registry">
                         <div class="date"><p>12 stycznia 2018</p></div>
@@ -113,7 +149,6 @@
                     </div>
                 </div>
                 <div class="registry">
-                    
                     <div class="foto"><img src="images/kurs_zdenko_foto.jpg"></div>
                     <div class="content_registry">
                         <div class="date"><p>8 listopada 2017</p></div>
@@ -139,21 +174,27 @@
         </div>
     <section id="footer_contact">
         <footer>
-            
            <ul>
-               <hr>
-               <li>Kontakt: <b>Gabriela Wachowiak</b></li>
-               <li><p>tel. <b>508 722 384</b></p></li>
-               <li><p>e-mail: <b>gabriela.wachowiak@gmail.com</b></p></li>
+               <hr/>
+               <li>Kontakt: Gabriela Wachowiak</li>
+               <li><p id="hidden" onclick="myFunction()">508 pokaż numer</p></li>
+                <li><a class="email_adress" href="mailto:gabriela.wachowiak@gmail.com"><p>gabriela.wachowiak(at)gmail.com</p></a></li>
             </ul>
             <div class="contact_footer">
                 <hr>
-                <p>Kontakt: </p><span><b>Gabriela Wachowiak</b></span> 
-                <p>tel. </p><span><b>508 722 384</b></span><p>e-mail: </p><span><b>gabriela.wachowiak@gmail.com</b></span>
+                <p>Kontakt: </p><span>Gabriela Wachowiak</span> 
+                <p>tel. </p><span id="hiddenMore" onclick="myFunctionMore()"> 508 pokaż numer</span>
+                <p>e-mail: </p>
+                <a class="email_adress" href="mailto:gabriela.wachowiak@gmail.com"><span>gabriela.wachowiak(at)gmail.com</span></a>
             </div>
         </footer>
-    </section>
         <script>
+        function myFunction() {
+            document.getElementById("hidden").innerHTML = "508 722 384";
+        }  
+        function myFunctionMore() {
+            document.getElementById("hiddenMore").innerHTML = "508 722 384";
+        }
             function toggle(elementId) {
                 
                 var element = document.getElementById(elementId);

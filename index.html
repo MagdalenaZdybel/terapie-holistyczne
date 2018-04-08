@@ -1,22 +1,69 @@
 <!DOCTYPE html>
 <html lang="pl">
     <head>
-        <title>Terapie holistyczne Gabriela Wachowiak</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2935744-14"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-2935744-14');
+        </script>
+        <title>Terapie-holistyczne Gabriela Wachowiak</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="terapie holistyczne,bioenergioterapia,Zdenko Domancic,terapia TCK,dwupunkt,terapia polarity,terapia mięśniowo powięziowa" />
-        <meta name="description" content="strona z usługami terapii holistycznych" />
+        <meta name="keywords" content="terapia grupowa,metoda zdenko domancica,terapie naturalne,terapie holistyczne,metoda domancica,bioenergioterapia,metoda wg zdenko domancica" />
+        <meta name="description" content="Terapie holistyczne" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Terapie-holistyczne Gabriela Wachowiak" />
+        <meta property="og:url" content="http://terapie-holistyczne.com.pl" />
+        <meta property="og:image" content="http://terapie-holistyczne.com.pl/ogimage.jpg" />
+        <meta property="og:image:height" content="210" />
+        <meta property="og:image:width" content="241" />
+        <meta property="og:description" content="Strona z naturalnymi terapiami holistycznymi." />
+        <meta property="fb:app_id" content="2018033928443079" />
+        <link rel="icon" href="favicon.ico" type="image" />
         <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,700,800" rel="stylesheet" />
         <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" />
-        <script defer src="js/fontawesome-all.js"></script>
-        <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" />
-        <script src="js/prefixfree.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
         <link href="css/normalize.css" rel="stylesheet" type="text/css" />
         <link href="css/style.css" rel="stylesheet" type="text/css" />
     </head>
-    <body>
-<button onclick="topFunction()" id="myBtn" title="Go to top">▲ tralalalal</button>
-        <div class="all_body">    
+    <body onload="checkCookie()">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+    
+    <div id="isNotVisitedSite" class="hide">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div id="foto_for_modal"></div>
+                <div class="close" id="close_btn">&times;</div>
+                    <div class="text_notice">
+                        <h2>Terapia grupowa z indywidualnym podejściem<br>
+                            wg metody Zdenko DOMANČIĆA
+                        </h2>
+                        <p class="blue_color_text">(bioenergoterapia jako uzupełnienie terapii konwencjonalnej)</p>
+                        <p class="blue_color_text">Metoda jest naturalna, prosta, nieinwazyjna, <br>
+                           ustandaryzowana, <br>a jej efektywność została potwierdzona naukowo!!!
+                        </p>
+                        <h3>Termin terapii 16.04 – 19.04.2018 r. godz. 18.00</h3>
+                        <p class="hidden_small">Metodę tę można stosować we wspomagającym leczeniu takich chorób jak: 
+                        <p class="hidden_small"><b>cukrzyca, astma, choroba Parkinsona, Alzheimer, artretyzm, Hashimoto, żółtaczka typu C, 
+                            nowotwory, bezpłodność, żylaki, choroby neurologiczne, rwa kulszowa, reumatoidalne 
+                            zapalenie stawów, choroby krwi, kręgosłupa, serca, wątroby, nerek, osteoporoza, 
+                            gangrena, depresja, zmęczenie, osłabiony układ odpornościowy i inne.</b>
+                        </p>
+                        <p>Terapia obowiązkowo trwa 4 dni z rzędu. Energia oddziałuje na ciało jeszcze przez okres 
+                            14 – 21 dni po zabiegu i w tym czasie zachodzą dalsze zmiany stanu zdrowia. 
+                        <p class="blue_color_text"><b>Terapia 
+                            wykonywana jest na podstawie diagnozy lekarskiej!!!</b>
+                        </p>
+                    </div>    
+            </div>
+        </div>
+    </div>  
+    
+        <div class="all_body">  
         <header>
             <div class="holdfats_left_header"></div>
             <div class="holdfats_right_header">
@@ -77,18 +124,8 @@
                         <aside>    
                             <div id="line_curve"></div>
                             <h5>Opinie</h5>
-                            <span>Gabrysię poznałam podczas warsztatów metody Kolorowe Motyle®, 
-                                której jestem autorką. Niezwykła intuicja, wrażliwość na piękno 
-                                i otwartość na drugiego człowieka sprawiły, że została cudowną 
-                                konsultantką metody, która uzdrawia i odmienia nasze życie. 
-                                Ciepła, skromna, a przy tym bardzo profesjonalna - taka właśnie 
-                                jest Gabrysia. Miałam również zaszczyt być jej przewodniczką na 
-                                drodze do odkrywania źródła kreatywności podczas warsztatów Vedic Art. 
-                                Obrazy, które wychodzą spod rąk Gabrysi są niezwykłe i ukazują jej 
-                                niezwykły talent! A tych talentów Gabrysia ma jeszcze więcej :) 
-                                Sercem polecam jej sesje!
-                                <br />Iwona Aruna Mazurek
-                            </span>
+                            <div id="reviews">
+                            </div><!-- pole z opiniami -->
                         </aside>
                         <hr />
                     </div>
@@ -187,12 +224,15 @@
                                 <img src="images/20151213-DSC_3535.jpg" alt="" />
                                 <img src="images/20151213-DSC_3537.jpg" alt="" />
                                 <img src="images/12801596_1503865263254430_1562936827387371856_n.jpg" alt="" />
+                                <img src="images/11202447_10208254793437643_2456300434190389083_n.jpg" alt="" />
+                                <img src="images/20151213-DSC_3629.jpg" alt="" />
+                                <img src="images/20151213-DSC_3604.jpg" alt="" />
+                                <img src="images/29027613_10215629548441909_9168373108023754752_n.jpg" alt="" />
                             </div>  
                             <div style="clear:both"></div>
                             <div class="third_row">
                                 <img src="images/13123418_1525303791110577_8938756913287990519_o.jpg" alt="" />
                                 <img src="images/20151213-DSC_3543.jpg" alt="" />
-                                
                             </div>
                         </div>
                     </div>
@@ -214,32 +254,13 @@
                 </ul>
             </div>    
         </section> 
-
         <footer>  
             <p>copyright © 2018, designe: motta.com.pl</p>
             <div id="background_footer_down"></div>
         </footer>
     </div>
 
-    <script>
-function myFunction() {
-            document.getElementById("hidden").innerHTML = "508 722 384";
-        }
-        
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-    }
-    
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-    }
-    
-    </script>
+    <script src="js/script.js"></script>
     </body>
     
 </html>

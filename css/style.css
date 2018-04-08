@@ -27,7 +27,7 @@ body {
 header {
   background-image: url(../images/silhouette-30875191_small_therapy.png);
   background-repeat: no-repeat;
-  background-size: 71%;
+  background-size: 70%;
   background-position: 86%;
   position: relative;
   height: 100%; }
@@ -35,7 +35,6 @@ header {
     header {
       height: 613px;
       margin-bottom: -167px;
-      background-size: 60%;
       background-position: 75%; } }
   @media screen and (min-width: 402px) and (max-width: 480px) {
     header {
@@ -43,7 +42,6 @@ header {
   @media screen and (min-width: 481px) and (max-width: 640px) {
     header {
       height: 700px;
-      background-size: 60%;
       background-position: 67%; } }
   @media screen and (min-width: 641px) and (max-width: 799px) {
     header {
@@ -102,7 +100,7 @@ header {
     header {
       background-image: url(../images/silhouette-3087517_960_720.png);
       background-repeat: no-repeat;
-      background-size: 20%;
+      background-size: auto 100%;
       background-position: 19%;
       position: relative;
       height: 735px; } }
@@ -266,7 +264,7 @@ header {
     @media screen and (min-width: 800px) and (max-width: 1024px) {
       #about_me .background_up {
         background-image: url(../images/background_grey_up.png);
-        height: 141px;
+        height: 138px;
         background-repeat: no-repeat;
         background-size: 100%; } }
     @media screen and (min-width: 1025px) and (max-width: 1100px) {
@@ -278,7 +276,7 @@ header {
     @media screen and (min-width: 1101px) and (max-width: 1200px) {
       #about_me .background_up {
         background-image: url(../images/background_grey_up.png);
-        height: 141px;
+        height: 145px;
         background-repeat: no-repeat;
         background-size: 100%; } }
     @media screen and (min-width: 1201px) and (max-width: 1269px) {
@@ -290,27 +288,45 @@ header {
     @media screen and (min-width: 1270px) and (max-width: 1366px) {
       #about_me .background_up {
         background-image: url(../images/background_grey_up.png);
-        height: 176px;
+        height: 174px;
         background-repeat: no-repeat;
         background-size: 100%; } }
-    @media screen and (min-width: 1367px) and (max-width: 1450px) {
+    @media screen and (min-width: 1367px) {
       #about_me .background_up {
         background-image: url(../images/background_grey_up.png);
-        height: 170px;
+        height: 189px;
         background-repeat: no-repeat;
         background-size: 100%; } }
-    @media screen and (min-width: 1450px) and (max-width: 1642px) {
+    @media screen and (min-width: 1450px) {
+      #about_me .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1512px) {
+      #about_me .background_up {
+        height: 200px; } }
+    @media screen and (min-width: 1643px) {
       #about_me .background_up {
         background-image: url(../images/background_grey_up.png);
         height: 210px;
         background-repeat: no-repeat;
         background-size: 100%; } }
-    @media screen and (min-width: 1644px) {
+    @media screen and (min-width: 1740px) {
       #about_me .background_up {
-        background-image: url(../images/background_grey_up.png);
-        height: 210px;
-        background-repeat: no-repeat;
-        background-size: 100%; } }
+        height: 230px; } }
+    @media screen and (min-width: 1760px) {
+      #about_me .background_up {
+        height: 240px; } }
+    @media screen and (min-width: 1794px) {
+      #about_me .background_up {
+        height: 250px; } }
+    @media screen and (min-width: 1830px) {
+      #about_me .background_up {
+        height: 254px; } }
+    @media screen and (min-width: 1901px) {
+      #about_me .background_up {
+        height: 261px; } }
   #about_me .background_center {
     background-color: #c8c8c7;
     padding-bottom: 10px; }
@@ -319,11 +335,11 @@ header {
         width: 100%;
         margin-top: -4%;
         padding-top: 0;
-        height: 551px; } }
+        height: 613px; } }
     @media screen and (min-width: 873px) and (max-width: 900px) {
       #about_me .background_center {
         width: 100%;
-        height: 551px;
+        height: 600px;
         padding-top: 24px;
         margin-top: -3%; } }
     @media screen and (min-width: 901px) and (max-width: 987px) {
@@ -331,25 +347,25 @@ header {
         width: 100%;
         margin-top: -2%;
         padding-top: 9px;
-        height: 551px; } }
+        height: 620px; } }
     @media screen and (min-width: 988px) and (max-width: 1024px) {
       #about_me .background_center {
         width: 100%;
         margin-top: -1%;
         padding-top: 24px;
-        height: 551px; } }
+        height: 556px; } }
     @media screen and (min-width: 1025px) and (max-width: 1100px) {
       #about_me .background_center {
         width: 100%;
-        margin-top: -10px;
+        margin-top: -12px;
         padding-top: 24px;
-        height: 551px; } }
+        height: 662px; } }
     @media screen and (min-width: 1101px) and (max-width: 1200px) {
       #about_me .background_center {
         width: 100%;
         /* margin-top: -1%;*/
         padding-top: 24px;
-        height: 551px; } }
+        height: 690px; } }
     @media screen and (min-width: 1201px) and (max-width: 1269px) {
       #about_me .background_center {
         width: 100%;
@@ -361,13 +377,13 @@ header {
         width: 100%;
         padding-top: 24px;
         height: 551px;
-        margin-top: -1px; } }
+        margin-top: -2px; } }
     @media screen and (min-width: 1367px) {
       #about_me .background_center {
         width: 100%;
         padding-top: 24px;
         height: 551px;
-        margin-top: -1px; } }
+        margin-top: -3px; } }
     @media screen and (min-width: 800px) and (max-width: 900px) {
       #about_me .background_center .holdfats_right_side {
         display: block;
@@ -404,13 +420,14 @@ header {
         float: right;
         width: 50%; } }
     #about_me .background_center span {
-      font-size: 15px;
+      font-size: 16px;
       font-weight: 700;
       color: #007DC5;
       text-align: center;
       padding-left: 5px;
       padding-right: 5px;
-      display: block; }
+      display: block;
+      line-height: 1.5; }
       @media screen and (min-width: 321px) and (max-width: 401px) {
         #about_me .background_center span {
           text-align: center;
@@ -443,15 +460,18 @@ header {
       @media screen and (min-width: 1025px) and (max-width: 1100px) {
         #about_me .background_center span {
           text-align: left;
-          padding-right: 30px; } }
+          padding-right: 30px;
+          line-height: 1.5; } }
       @media screen and (min-width: 1101px) and (max-width: 1200px) {
         #about_me .background_center span {
           text-align: left;
-          padding-right: 30px; } }
+          padding-right: 30px;
+          line-height: 1.5; } }
       @media screen and (min-width: 1201px) and (max-width: 1366px) {
         #about_me .background_center span {
           text-align: left;
-          margin-right: 100px; } }
+          margin-right: 100px;
+          line-height: 1.5; } }
       @media screen and (min-width: 1367px) {
         #about_me .background_center span {
           text-align: left;
@@ -574,15 +594,18 @@ header {
       @media screen and (min-width: 1025px) and (max-width: 1100px) {
         #about_me .background_center article {
           text-align: left;
-          margin-right: 75px; } }
+          margin-right: 75px;
+          line-height: 1.5; } }
       @media screen and (min-width: 1101px) and (max-width: 1366px) {
         #about_me .background_center article {
           text-align: left;
-          margin-right: 100px; } }
+          margin-right: 100px;
+          line-height: 1.5; } }
       @media screen and (min-width: 1367px) {
         #about_me .background_center article {
           text-align: left;
-          margin-right: 100px; } }
+          margin-right: 100px;
+          line-height: 1.5; } }
     @media screen and (min-width: 800px) and (max-width: 1024px) {
       #about_me .background_center .holdfats_left_side {
         display: block;
@@ -721,7 +744,7 @@ header {
           display: block; } }
       #about_me .background_center .foto_about_me #foto_portrait_contemplate {
         display: none; }
-        @media screen and (min-width: 641px) {
+        @media screen and (min-width: 681px) {
           #about_me .background_center .foto_about_me #foto_portrait_contemplate {
             display: block; }
             #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
@@ -731,38 +754,55 @@ header {
               margin: 0 auto;
               margin-bottom: 0px;
               margin-top: 25px; } }
-    @media screen and (min-width: 641px) and (min-width: 641px) and (max-width: 799px) {
+    @media screen and (min-width: 681px) and (min-width: 681px) and (max-width: 640px) {
+      #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
+        width: 185px;
+        float: left;
+        display: block; } }
+    @media screen and (min-width: 681px) and (min-width: 641px) and (max-width: 799px) {
       #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
         width: 120px;
         float: left;
         display: block;
         margin-right: 6%;
         margin-left: 6%; } }
-    @media screen and (min-width: 641px) and (min-width: 1025px) and (max-width: 1100px) {
+    @media screen and (min-width: 681px) and (min-width: 1025px) and (max-width: 1100px) {
       #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
         width: 185px;
         float: none;
         margin: 35px auto; } }
-    @media screen and (min-width: 641px) and (min-width: 1101px) and (max-width: 1200px) {
+    @media screen and (min-width: 681px) and (min-width: 1101px) and (max-width: 1200px) {
       #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
         width: 185px;
         float: none;
         margin: 35px auto; } }
-    @media screen and (min-width: 641px) and (min-width: 1201px) and (max-width: 1366px) {
+    @media screen and (min-width: 681px) and (min-width: 1201px) and (max-width: 1366px) {
       #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
         width: 185px;
         float: none;
         margin: 35px auto; } }
-    @media screen and (min-width: 641px) and (min-width: 1367px) {
+    @media screen and (min-width: 681px) and (min-width: 1367px) {
       #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
         width: 185px;
         float: none;
         margin: 35px auto;
         display: block; } }
-  @media screen and (min-width: 641px) and (min-width: 800px) and (max-width: 1366px) {
+  @media screen and (min-width: 681px) and (min-width: 481px) and (max-width: 640px) {
     #about_me .background_center .foto_about_me #foto_portrait_contemplate {
       display: block; } }
-  @media screen and (min-width: 641px) and (min-width: 1367px) {
+  @media screen and (min-width: 681px) and (min-width: 401px) and (max-width: 480px) {
+    #about_me .background_center .foto_about_me #foto_portrait_contemplate {
+      display: block; } }
+  @media screen and (min-width: 681px) and (min-width: 481px) and (max-width: 640px) {
+    #about_me .background_center .foto_about_me #foto_portrait_contemplate {
+      display: block; } }
+  @media screen and (min-width: 681px) and (min-width: 641px) and (max-width: 799px) {
+    #about_me .background_center .foto_about_me #foto_portrait_contemplate {
+      display: block; } }
+  @media screen and (min-width: 681px) and (min-width: 800px) and (max-width: 1366px) {
+    #about_me .background_center .foto_about_me #foto_portrait_contemplate {
+      display: block; } }
+  @media screen and (min-width: 681px) and (min-width: 1367px) {
     #about_me .background_center .foto_about_me #foto_portrait_contemplate {
       display: block; } }
 
@@ -779,7 +819,7 @@ header {
         #about_me .background_center aside {
           margin-top: 7%; } }
       #about_me .background_center aside h5 {
-        font-weight: 700;
+        font-weight: 14px;
         font-size: 15px;
         margin-top: -54px;
         margin-left: 38px; }
@@ -797,7 +837,7 @@ header {
             text-align: start; } }
       #about_me .background_center aside span {
         font-weight: 400;
-        font-size: 14px;
+        font-size: 15px;
         color: #fff;
         padding-top: 0px;
         margin-left: 5px;
@@ -828,20 +868,29 @@ header {
             margin-right: 75px; } }
   #about_me .background_bottom {
     display: none; }
-    @media screen and (min-width: 800px) and (max-width: 1366px) {
+    @media screen and (min-width: 800px) {
       #about_me .background_bottom {
         background-image: url(../images/background_grey_down.png);
-        height: 198px;
+        height: 209px;
         background-repeat: no-repeat;
         background-size: 100%;
         display: block; } }
-    @media screen and (min-width: 1367px) {
+    @media screen and (min-width: 1350px) {
       #about_me .background_bottom {
         background-image: url(../images/background_grey_down.png);
-        height: 198px;
+        height: 215px;
         background-repeat: no-repeat;
         background-size: 100%;
         display: block; } }
+    @media screen and (min-width: 1490px) {
+      #about_me .background_bottom {
+        height: 240px; } }
+    @media screen and (min-width: 1686px) {
+      #about_me .background_bottom {
+        height: 260px; } }
+    @media screen and (min-width: 1687px) {
+      #about_me .background_bottom {
+        height: 280px; } }
 
 #terapy {
   text-align: center;
@@ -858,14 +907,14 @@ header {
   @media screen and (min-width: 481px) and (max-width: 640px) {
     #terapy {
       background-size: 72%;
-      background-position: 70% 105%;
+      background-position: 70% bottom;
       margin-left: 55px;
       margin-right: 55px;
-      text-align: start;
+      text-align: left;
       padding-bottom: 15%; } }
   @media screen and (min-width: 641px) and (max-width: 713px) {
     #terapy {
-      text-align: start;
+      text-align: left;
       margin-left: 45px;
       margin-right: 45px;
       background-position: 84% 101%;
@@ -874,7 +923,7 @@ header {
     #terapy {
       margin-left: 75px;
       margin-right: 75px;
-      text-align: start;
+      text-align: left;
       background-position: 90% 108%; } }
   @media screen and (min-width: 773px) and (max-width: 799px) {
     #terapy {
@@ -883,39 +932,60 @@ header {
   @media screen and (min-width: 800px) and (max-width: 900px) {
     #terapy {
       background-image: url(../images/silhouette-3087519_light.png);
-      text-align: start;
+      text-align: left;
       background-position-x: 9px;
       background-position-y: 105%;
       background-size: 47%;
       height: 850px; } }
   @media screen and (min-width: 901px) and (max-width: 1100px) {
     #terapy {
-      height: 809px;
+      height: 840px;
       background-image: url(../images/silhouette-3087519_light.png);
       background-position-x: 18%;
       background-position-y: 105%;
-      background-size: 30%; } }
+      background-size: 35%; } }
   @media screen and (min-width: 1101px) and (max-width: 1200px) {
     #terapy {
       height: 850px;
       background-image: url(../images/silhouette-3087519.png);
       background-position-x: 15%;
       background-position-y: 105%;
-      background-size: 33%; } }
+      background-size: 31%; } }
   @media screen and (min-width: 1201px) and (max-width: 1366px) {
     #terapy {
       height: 800px;
       background-image: url(../images/silhouette-3087519.png);
       background-position-x: 15%;
       background-position-y: 105%;
-      background-size: 28%; } }
+      background-size: 29%; } }
   @media screen and (min-width: 1367px) {
     #terapy {
       height: 800px;
       background-image: url(../images/silhouette-3087519.png);
       background-position-x: 15%;
       background-position-y: 105%;
-      background-size: 28%; } }
+      background-size: 26%; } }
+  @media screen and (min-width: 1637px) {
+    #terapy {
+      height: 800px;
+      background-image: url(../images/silhouette-3087519.png);
+      background-position-x: 15%;
+      background-position-y: 105%;
+      background-size: 22%; } }
+  @media screen and (min-width: 1900px) {
+    #terapy {
+      height: 800px;
+      background-image: url(../images/silhouette-3087519.png);
+      background-position-x: 15%;
+      background-position-y: 105%;
+      background-size: 22%; } }
+  @media screen and (min-width: 2051px) {
+    #terapy {
+      height: 800px;
+      background-image: url(../images/silhouette-3087519.png);
+      background-position-x: 15%;
+      background-position-y: 105%;
+      background-size: 22%; } }
   #terapy article h3 {
     font-family: 800;
     font-size: 16px;
@@ -961,7 +1031,7 @@ header {
       width: 10%; } }
   @media screen and (min-width: 901px) and (max-width: 1100px) {
     #terapy .clog_the_hole {
-      width: 10%; } }
+      display: none; } }
   @media screen and (min-width: 1101px) and (max-width: 1200px) {
     #terapy .clog_the_hole {
       width: 40%;
@@ -1186,62 +1256,74 @@ header {
   height: 290px; }
   @media screen and (min-width: 401px) and (max-width: 401px) {
     #gallery {
-      height: 725px;
+      height: auto;
       position: relative;
       padding-bottom: 25px; } }
   @media screen and (min-width: 402px) and (max-width: 480px) {
     #gallery {
-      height: 725px; } }
+      height: auto; } }
   @media screen and (min-width: 481px) and (max-width: 512px) {
     #gallery {
-      height: 823px; } }
+      height: auto; } }
   @media screen and (min-width: 513px) and (max-width: 551px) {
     #gallery {
-      height: 870px; } }
+      height: auto; } }
   @media screen and (min-width: 552px) and (max-width: 640px) {
     #gallery {
-      height: 980px; } }
+      height: auto; } }
   @media screen and (min-width: 641px) and (max-width: 713px) {
     #gallery {
-      height: 1100px; } }
+      height: auto; } }
   @media screen and (min-width: 714px) and (max-width: 799px) {
     #gallery {
-      height: 1200px; } }
+      height: auto; } }
   @media screen and (min-width: 800px) and (max-width: 831px) {
     #gallery {
-      height: 1061px;
+      height: auto;
       margin-top: -6%; } }
   @media screen and (min-width: 832px) and (max-width: 850px) {
     #gallery {
-      height: 1100px;
+      height: auto;
       margin-top: -6%; } }
   @media screen and (min-width: 851px) and (max-width: 900px) {
     #gallery {
-      height: 1180px;
+      height: auto;
       margin-top: -6%; } }
   @media screen and (min-width: 901px) and (max-width: 950px) {
     #gallery {
-      height: 700px;
+      height: auto;
       margin-top: -8%; } }
   @media screen and (min-width: 951px) and (max-width: 1000px) {
     #gallery {
-      height: 695px;
+      height: auto;
       margin-top: -8%; } }
   @media screen and (min-width: 1001px) and (max-width: 1100px) {
     #gallery {
-      height: 780px;
+      height: auto;
       margin-top: -8%; } }
   @media screen and (min-width: 1101px) and (max-width: 1200px) {
     #gallery {
-      height: 780px;
-      margin-top: -8%; } }
+      height: auto;
+      margin-top: -5%; } }
   @media screen and (min-width: 1201px) and (max-width: 1366px) {
     #gallery {
-      height: 800px;
-      margin-top: -8%; } }
+      height: auto;
+      margin-top: -3%; } }
   @media screen and (min-width: 1367px) {
     #gallery {
-      height: 800px;
+      height: auto;
+      margin-top: -3%; } }
+  @media screen and (min-width: 1700px) {
+    #gallery {
+      height: auto;
+      margin-top: -8%; } }
+  @media screen and (min-width: 1700px) {
+    #gallery {
+      height: auto;
+      margin-top: -8%; } }
+  @media screen and (min-width: 1900px) {
+    #gallery {
+      height: auto;
       margin-top: -8%; } }
   #gallery .background_up {
     background-image: url(../images/background_grey_up_small_480.png);
@@ -1290,15 +1372,33 @@ header {
     @media screen and (min-width: 1201px) and (max-width: 1366px) {
       #gallery .background_up {
         background-image: url(../images/background_grey_up.png);
-        height: 167px;
+        height: 170px;
         background-repeat: no-repeat;
         background-size: 100%; } }
-    @media screen and (min-width: 1367px) {
+    @media screen and (min-width: 1366px) {
       #gallery .background_up {
         background-image: url(../images/background_grey_up.png);
         height: 167px;
         background-repeat: no-repeat;
         background-size: 100%; } }
+    @media screen and (min-width: 1400px) {
+      #gallery .background_up {
+        height: 200px; } }
+    @media screen and (min-width: 1500px) {
+      #gallery .background_up {
+        height: 219px; } }
+    @media screen and (min-width: 1600px) {
+      #gallery .background_up {
+        height: 230px; } }
+    @media screen and (min-width: 1700px) {
+      #gallery .background_up {
+        height: 239px; } }
+    @media screen and (min-width: 1800px) {
+      #gallery .background_up {
+        height: 239px; } }
+    @media screen and (min-width: 1900px) {
+      #gallery .background_up {
+        height: 239px; } }
   #gallery .background_center {
     background-color: #c8c8c7;
     padding-bottom: 10px; }
@@ -1310,16 +1410,19 @@ header {
         height: auto; } }
     @media screen and (min-width: 901px) and (max-width: 1100px) {
       #gallery .background_center {
-        height: 459px; } }
+        height: auto; } }
     @media screen and (min-width: 1101px) and (max-width: 1200px) {
       #gallery .background_center {
-        height: 550px; } }
+        height: auto; } }
     @media screen and (min-width: 1201px) and (max-width: 1366px) {
       #gallery .background_center {
-        height: 594px; } }
-    @media screen and (min-width: 1367px) {
+        height: auto; } }
+    @media screen and (min-width: 1367) {
       #gallery .background_center {
-        height: 594px; } }
+        height: auto; } }
+    @media screen and (min-width: 1900px) {
+      #gallery .background_center {
+        height: auto; } }
     @media screen and (min-width: 401px) {
       #gallery .background_center .foto_gallery_small {
         display: none; } }
@@ -1386,8 +1489,12 @@ header {
             box-shadow: 5px 5px 5px;
             width: 20%;
             margin: 2%; } }
-      #gallery .background_center .all_foto_gallery .first_row img {
-        float: right; }
+      @media screen and (min-width: 1900px) {
+        #gallery .background_center .all_foto_gallery {
+          display: block; } }
+      @media screen and (min-width: 901px) {
+        #gallery .background_center .all_foto_gallery .first_row img {
+          float: right; } }
   #gallery .background_bottom {
     display: none; }
     @media screen and (min-width: 800px) and (max-width: 900px) {
@@ -1418,24 +1525,27 @@ header {
         background-repeat: no-repeat;
         background-size: 100%;
         display: block; } }
-    @media screen and (min-width: 1367px) {
+    @media screen and (min-width: 1366px) {
       #gallery .background_bottom {
         background-image: url(../images/background_grey_down.png);
-        height: 196px;
+        height: 266px;
         background-repeat: no-repeat;
         background-size: 100%;
         display: block; } }
+    @media screen and (min-width: 1900px) {
+      #gallery .background_bottom {
+        height: 265px; } }
 
 #contact {
   height: 451px;
   background-image: url(../images/silhouette-3087521_small.png);
+  background-size: 62%;
   background-repeat: no-repeat;
-  background-position-x: 65%;
+  background-position-x: 102%;
   background-position-x: bottom; }
   @media screen and (min-width: 402px) and (max-width: 420px) {
     #contact {
-      background-position: 79% 41%;
-      background-size: 61%; } }
+      background-position: 78% 4%; } }
   @media screen and (min-width: 421px) and (max-width: 480px) {
     #contact {
       background-position: 79% -12%;
@@ -1452,7 +1562,7 @@ header {
     #contact {
       height: 518px;
       background-position-y: bottom;
-      background-position-x: 56%;
+      background-position-x: 64%;
       background-size: 45%; } }
   @media screen and (min-width: 641px) and (max-width: 713px) {
     #contact {
@@ -1469,38 +1579,38 @@ header {
       background-image: url(../images/silhouette-3087521_1280.png);
       background-repeat: no-repeat;
       background-position: 23% 81%;
-      background-size: 31%; } }
+      background-size: auto 100%; } }
   @media screen and (min-width: 901px) and (max-width: 1024px) {
     #contact {
       height: 621px;
       background-image: url(../images/silhouette-3087521_1280.png);
       background-repeat: no-repeat;
       background-position: 23% 81%;
-      background-size: 31%; } }
+      background-size: auto 100%; } }
   @media screen and (min-width: 1025px) and (max-width: 1100px) {
     #contact {
       height: 621px;
       background-image: url(../images/silhouette-3087521_1280.png);
       background-repeat: no-repeat;
       background-position: 23% 81%;
-      background-size: 31%; } }
+      background-size: auto 100%; } }
   @media screen and (min-width: 1101px) and (max-width: 1200px) {
     #contact {
       height: 621px;
       background-image: url(../images/silhouette-3087521_1280.png);
       background-repeat: no-repeat;
       background-position: 23% 81%;
-      background-size: 23%; } }
+      background-size: auto 100%; } }
   @media screen and (min-width: 1201px) and (max-width: 1280px) {
     #contact {
       height: 621px;
       background-image: url(../images/silhouette-3087521_1280.png);
       background-repeat: no-repeat;
       background-position: 25% bottom;
-      background-size: 20%; } }
+      background-size: auto 100%; } }
   @media screen and (min-width: 1281px) and (max-width: 1366px) {
     #contact {
-      background-size: 18%;
+      background-size: auto 100%;
       background-position: 23% bottom;
       height: 621px;
       background-image: url(../images/silhouette-3087521_1280.png);
@@ -1511,7 +1621,7 @@ header {
       background-image: url(../images/silhouette-3087521_1280.png);
       background-repeat: no-repeat;
       background-position: 23% bottom;
-      background-size: 16%; } }
+      background-size: auto 100%; } }
   @media screen and (min-width: 800px) {
     #contact .holdfast_left_contact {
       width: 50%;
@@ -1652,7 +1762,7 @@ header {
         background-image: url(../images/terapie_holistyczne_logo.png);
         background-size: 57%;
         background-repeat: no-repeat;
-        background-position: 18%;
+        background-position: 33%;
         height: 101px;
         width: 291px; } }
 
@@ -1713,12 +1823,15 @@ footer {
       height: 200px;
       background-repeat: no-repeat;
       background-size: 100%; } }
-  @media screen and (min-width: 1367px) {
+  @media screen and (min-width: 1366px) {
     footer {
       background-image: url(../images/background_grey_up.png);
       height: 220px;
       background-repeat: no-repeat;
       background-size: 100%; } }
+  @media screen and (min-width: 1900px) {
+    footer {
+      height: 253px; } }
   footer #background_footer_down {
     /*background-color: $grey;
     height: 14px;
@@ -1775,19 +1888,127 @@ footer {
   display: none;
   position: fixed;
   bottom: 10px;
-  right: 30px;
+  right: 15px;
   z-index: 99;
   font-size: 20px;
-  border: none;
+  border: 1px solidColor;
   outline: none;
-  background-color: rgba(0, 141, 253, 0.65);
+  background-color: rgba(229, 229, 229, 0.65);
   color: #fff;
   cursor: pointer;
-  padding: 5px 7px 5px 7px;
+  padding: 3px 7px 7px 7px;
   border-radius: 50px; }
 
 #myBtn:hover {
   background-color: rgba(226, 234, 241, 0.61);
   border-radius: 50px; }
+
+.hide {
+  display: none; }
+  .hide .modal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4); }
+  .hide .modal-content {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    background-image: url(../images/silhouette-3087519_light.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position-x: left;
+    background-position-y: top; }
+    .hide .modal-content h2, .hide .modal-content h3 {
+      font-size: 14px;
+      color: #758036; }
+      @media screen and (min-width: 400px) {
+        .hide .modal-content h2, .hide .modal-content h3 {
+          font-size: 18px; } }
+    .hide .modal-content .text_notice .blue_color_text {
+      color: #007DC5; }
+    .hide .modal-content .text_notice p, .hide .modal-content .text_notice h3 {
+      text-align: center;
+      padding-left: 7%;
+      padding-right: 3%; }
+    .hide .modal-content .text_notice p {
+      font-size: 11px; }
+      @media screen and (min-width: 400px) {
+        .hide .modal-content .text_notice p {
+          font-size: 13px; } }
+    .hide .modal-content .text_notice h3 {
+      color: #758036; }
+    .hide .modal-content .text_notice .hidden_small {
+      display: none; }
+      @media screen and (min-width: 400px) {
+        .hide .modal-content .text_notice .hidden_small {
+          display: block; } }
+  .hide .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 25px;
+    font-weight: bold; }
+  .hide .close:hover,
+  .hide .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer; }
+
+#reviews {
+  position: relative;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 30px;
+  height: 358px;
+  text-align: center; }
+  @media screen and (min-width: 319px) {
+    #reviews {
+      height: 311px; } }
+  @media screen and (min-width: 430px) {
+    #reviews {
+      height: 200px; } }
+  @media screen and (min-width: 480px) {
+    #reviews {
+      height: 180px; } }
+  @media screen and (min-width: 700px) {
+    #reviews {
+      margin-right: 75px; } }
+  @media screen and (min-width: 1000px) {
+    #reviews {
+      margin-left: 50px;
+      margin-right: 140px;
+      margin-top: 10px;
+      font-size: 17px; } }
+
+.fadeElement {
+  position: absolute; }
+
+.cookiepolicy {
+  background: #efefef;
+  bottom: 0;
+  font: 14px Arial, Helvetica, sans-serif;
+  left: 0;
+  padding: 15px 50px;
+  position: fixed;
+  right: 0;
+  text-align: center; }
+
+.cookiepolicy .button {
+  background: #444;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 5px 10px; }
 
 /*# sourceMappingURL=style.css.map */
