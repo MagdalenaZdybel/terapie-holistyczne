@@ -1,0 +1,2014 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 0 auto; }
+  body h2 {
+    color: #007DC5;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center; }
+  body a {
+    text-decoration: none;
+    color: #007DC5; }
+  body hr {
+    height: 1px;
+    background-color: #fff;
+    border: 0;
+    width: 100%;
+    margin-bottom: 1px; }
+    @media screen and (min-width: 800px) and (max-width: 1366px) {
+      body hr {
+        display: none; } }
+    @media screen and (min-width: 1367px) {
+      body hr {
+        display: none; } }
+
+header {
+  background-image: url(../images/silhouette-30875191_small_therapy.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 86%;
+  position: relative;
+  height: 100%; }
+  @media screen and (min-width: 321px) and (max-width: 401px) {
+    header {
+      height: 613px;
+      margin-bottom: -167px;
+      background-position: 75%; } }
+  @media screen and (min-width: 402px) and (max-width: 480px) {
+    header {
+      height: 599px; } }
+  @media screen and (min-width: 481px) and (max-width: 640px) {
+    header {
+      height: 700px;
+      background-position: 67%; } }
+  @media screen and (min-width: 641px) and (max-width: 799px) {
+    header {
+      height: 600px;
+      background-size: 40%;
+      background-position: 62% center; } }
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    header {
+      background-image: url(../images/silhouette-3087517_960_720.png);
+      background-repeat: no-repeat;
+      background-size: 38%;
+      background-position: 19%;
+      position: relative;
+      height: 693px; } }
+  @media screen and (min-width: 901px) and (max-width: 1024px) {
+    header {
+      background-image: url(../images/silhouette-3087517_960_720.png);
+      background-repeat: no-repeat;
+      background-size: 35%;
+      background-position: 19%;
+      position: relative;
+      height: 715px; } }
+  @media screen and (min-width: 1025px) and (max-width: 1100px) {
+    header {
+      background-image: url(../images/silhouette-3087517_960_720.png);
+      background-repeat: no-repeat;
+      background-size: 30%;
+      background-position: 19%;
+      position: relative;
+      height: 730px; } }
+  @media screen and (min-width: 1101px) and (max-width: 1200px) {
+    header {
+      background-image: url(../images/silhouette-3087517_960_720.png);
+      background-repeat: no-repeat;
+      background-size: 28%;
+      background-position: 19%;
+      position: relative;
+      height: 735px; } }
+  @media screen and (min-width: 1201px) and (max-width: 1366px) {
+    header {
+      background-image: url(../images/silhouette-3087517_960_720.png);
+      background-repeat: no-repeat;
+      background-size: 28%;
+      background-position: 19%;
+      position: relative;
+      height: 735px; } }
+  @media screen and (min-width: 1366px) and (max-width: 1450px) {
+    header {
+      background-image: url(../images/silhouette-3087517_960_720.png);
+      background-repeat: no-repeat;
+      background-size: 25%;
+      background-position: 19%;
+      position: relative;
+      height: 735px; } }
+  @media screen and (min-width: 1451px) {
+    header {
+      background-image: url(../images/silhouette-3087517_960_720.png);
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      background-position: 19%;
+      position: relative;
+      height: 735px; } }
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    header .holdfats_right_header {
+      width: 50%;
+      float: right;
+      height: 100%; } }
+  @media screen and (min-width: 901px) and (max-width: 1024px) {
+    header .holdfats_right_header {
+      width: 50%;
+      float: right;
+      height: 100%; } }
+  @media screen and (min-width: 1025px) and (max-width: 1100px) {
+    header .holdfats_right_header {
+      width: 50%;
+      float: right;
+      height: 100%; } }
+  @media screen and (min-width: 1101px) and (max-width: 1200px) {
+    header .holdfats_right_header {
+      width: 50%;
+      float: right;
+      height: 100%; } }
+  @media screen and (min-width: 1201px) and (max-width: 1366px) {
+    header .holdfats_right_header {
+      width: 50%;
+      float: right;
+      height: 100%; } }
+  @media screen and (min-width: 1367px) {
+    header .holdfats_right_header {
+      width: 50%;
+      float: right;
+      height: 100%; } }
+  header .holdfats_right_header .holdfats_left_header {
+    width: 50%;
+    float: left;
+    height: 100%; }
+  header #leaf_blue
+  #leaf_green
+  #leaf_black
+  #leaf_red {
+    display: none; }
+    @media screen and (min-width: 481px) and (max-width: 799px) {
+      header #leaf_blue
+      #leaf_green
+      #leaf_black
+      #leaf_red {
+        display: block; }
+        header #leaf_blue
+        #leaf_green
+        #leaf_black
+        #leaf_red #leaf_blue {
+          background-image: url(../images/leaf_blue.png);
+          width: 50px;
+          background-size: 100%;
+          background-repeat: no-repeat;
+          background-color: red; }
+        header #leaf_blue
+        #leaf_green
+        #leaf_black
+        #leaf_red #leaf_green {
+          background-image: url(../images/leaf_blue.png);
+          background-repeat: no-repeat; }
+        header #leaf_blue
+        #leaf_green
+        #leaf_black
+        #leaf_red #leaf_black {
+          background-image: url(../images/leaf_black.png);
+          background-repeat: no-repeat; }
+        header #leaf_blue
+        #leaf_green
+        #leaf_black
+        #leaf_red #leaf_red {
+          background-image: url(../images/leaf_red.png);
+          background-repeat: no-repeat; } }
+  header .logo {
+    background-image: url(../images/terapie_holistyczne_logo.png);
+    background-size: 198px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 73px;
+    padding-top: 33px; }
+    @media screen and (min-width: 800px) and (max-width: 1366px) {
+      header .logo {
+        margin-top: 124px; } }
+    @media screen and (min-width: 1367px) {
+      header .logo {
+        margin-top: 124px; } }
+  header #mine_nav ul {
+    padding-left: 0; }
+    @media screen and (min-width: 321px) and (max-width: 401px) {
+      header #mine_nav ul {
+        font-size: 27px; } }
+    @media screen and (min-width: 402px) and (max-width: 480px) {
+      header #mine_nav ul {
+        font-size: 27px; } }
+    @media screen and (min-width: 481px) and (max-width: 640px) {
+      header #mine_nav ul {
+        font-size: 28px; } }
+    @media screen and (min-width: 641px) and (max-width: 799px) {
+      header #mine_nav ul {
+        font-size: 28px; } }
+    @media screen and (min-width: 800px) and (max-width: 1366px) {
+      header #mine_nav ul {
+        font-size: 24px;
+        font-weight: 400; } }
+    @media screen and (min-width: 1367px) {
+      header #mine_nav ul {
+        font-size: 24px;
+        font-weight: 400; } }
+  header #mine_nav li {
+    list-style: none;
+    padding-top: 30px;
+    text-align: center; }
+    header #mine_nav li a {
+      text-decoration: none;
+      color: #000000; }
+  header #mine_nav ul LI:nth-child(2n+2) a {
+    color: #007DC5; }
+
+#about_me {
+  margin-top: -50px; }
+  @media screen and (min-width: 321px) and (max-width: 401px) {
+    #about_me {
+      /* margin-top: 0;*/ } }
+  @media screen and (min-width: 481px) and (max-width: 640px) {
+    #about_me {
+      margin-top: 0; } }
+  @media screen and (min-width: 800px) and (max-width: 1024px) {
+    #about_me {
+      margin-top: -12%; } }
+  @media screen and (min-width: 1025px) and (max-width: 1100px) {
+    #about_me {
+      margin-top: -15%; } }
+  @media screen and (min-width: 1101px) and (max-width: 1269px) {
+    #about_me {
+      margin-top: -13%; } }
+  @media screen and (min-width: 1270px) and (max-width: 1366px) {
+    #about_me {
+      margin-top: -10%; } }
+  @media screen and (min-width: 1367px) {
+    #about_me {
+      margin-top: -5%; } }
+  #about_me .background_up {
+    background-image: url(../images/background_grey_up_small_480.png);
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 100%; }
+    @media screen and (min-width: 321px) and (max-width: 480px) {
+      #about_me .background_up {
+        height: 99px; } }
+    @media screen and (min-width: 481px) and (max-width: 640px) {
+      #about_me .background_up {
+        height: 133px;
+        margin-top: -17%; } }
+    @media screen and (min-width: 641px) and (max-width: 799px) {
+      #about_me .background_up {
+        background-position: center top;
+        margin-top: -15%;
+        height: 185px; } }
+    @media screen and (min-width: 800px) and (max-width: 1024px) {
+      #about_me .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 138px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1025px) and (max-width: 1100px) {
+      #about_me .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 151px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1101px) and (max-width: 1200px) {
+      #about_me .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 145px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1201px) and (max-width: 1269px) {
+      #about_me .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 161px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1270px) and (max-width: 1366px) {
+      #about_me .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 174px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1367px) {
+      #about_me .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 189px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1450px) {
+      #about_me .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1512px) {
+      #about_me .background_up {
+        height: 200px; } }
+    @media screen and (min-width: 1643px) {
+      #about_me .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 210px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1740px) {
+      #about_me .background_up {
+        height: 230px; } }
+    @media screen and (min-width: 1760px) {
+      #about_me .background_up {
+        height: 240px; } }
+    @media screen and (min-width: 1794px) {
+      #about_me .background_up {
+        height: 250px; } }
+    @media screen and (min-width: 1830px) {
+      #about_me .background_up {
+        height: 254px; } }
+    @media screen and (min-width: 1901px) {
+      #about_me .background_up {
+        height: 261px; } }
+  #about_me .background_center {
+    background-color: #c8c8c7;
+    padding-bottom: 10px; }
+    @media screen and (min-width: 800px) and (max-width: 872px) {
+      #about_me .background_center {
+        width: 100%;
+        margin-top: -4%;
+        padding-top: 0;
+        height: 613px; } }
+    @media screen and (min-width: 873px) and (max-width: 900px) {
+      #about_me .background_center {
+        width: 100%;
+        height: 600px;
+        padding-top: 24px;
+        margin-top: -3%; } }
+    @media screen and (min-width: 901px) and (max-width: 987px) {
+      #about_me .background_center {
+        width: 100%;
+        margin-top: -2%;
+        padding-top: 9px;
+        height: 620px; } }
+    @media screen and (min-width: 988px) and (max-width: 1024px) {
+      #about_me .background_center {
+        width: 100%;
+        margin-top: -1%;
+        padding-top: 24px;
+        height: 556px; } }
+    @media screen and (min-width: 1025px) and (max-width: 1100px) {
+      #about_me .background_center {
+        width: 100%;
+        margin-top: -12px;
+        padding-top: 24px;
+        height: 662px; } }
+    @media screen and (min-width: 1101px) and (max-width: 1200px) {
+      #about_me .background_center {
+        width: 100%;
+        /* margin-top: -1%;*/
+        padding-top: 24px;
+        height: 690px; } }
+    @media screen and (min-width: 1201px) and (max-width: 1269px) {
+      #about_me .background_center {
+        width: 100%;
+        /*margin-top: -1%;*/
+        padding-top: 24px;
+        height: 551px; } }
+    @media screen and (min-width: 1270px) and (max-width: 1366px) {
+      #about_me .background_center {
+        width: 100%;
+        padding-top: 24px;
+        height: 551px;
+        margin-top: -2px; } }
+    @media screen and (min-width: 1367px) {
+      #about_me .background_center {
+        width: 100%;
+        padding-top: 24px;
+        height: 551px;
+        margin-top: -3px; } }
+    @media screen and (min-width: 800px) and (max-width: 900px) {
+      #about_me .background_center .holdfats_right_side {
+        display: block;
+        float: right;
+        width: 50%; } }
+    @media screen and (min-width: 901px) and (max-width: 1024px) {
+      #about_me .background_center .holdfats_right_side {
+        display: block;
+        float: right;
+        width: 50%; } }
+    @media screen and (min-width: 1025px) and (max-width: 1100px) {
+      #about_me .background_center .holdfats_right_side {
+        display: block;
+        float: right;
+        width: 50%; } }
+    @media screen and (min-width: 1101px) and (max-width: 1200px) {
+      #about_me .background_center .holdfats_right_side {
+        display: block;
+        float: right;
+        width: 50%; } }
+    @media screen and (min-width: 1201px) and (max-width: 1269px) {
+      #about_me .background_center .holdfats_right_side {
+        display: block;
+        float: right;
+        width: 50%; } }
+    @media screen and (min-width: 1270px) and (max-width: 1366px) {
+      #about_me .background_center .holdfats_right_side {
+        display: block;
+        float: right;
+        width: 50%; } }
+    @media screen and (min-width: 1367px) {
+      #about_me .background_center .holdfats_right_side {
+        display: block;
+        float: right;
+        width: 50%; } }
+    #about_me .background_center span {
+      font-size: 16px;
+      font-weight: 700;
+      color: #007DC5;
+      text-align: center;
+      padding-left: 5px;
+      padding-right: 5px;
+      display: block;
+      line-height: 1.5; }
+      @media screen and (min-width: 321px) and (max-width: 401px) {
+        #about_me .background_center span {
+          text-align: center;
+          padding-left: 25px;
+          padding-right: 15px; } }
+      @media screen and (min-width: 401px) and (max-width: 480px) {
+        #about_me .background_center span {
+          text-align: left;
+          margin-left: 20px;
+          margin-right: 15px; } }
+      @media screen and (min-width: 481px) and (max-width: 640px) {
+        #about_me .background_center span {
+          text-align: left;
+          margin-left: 44px;
+          margin-right: 11px; } }
+      @media screen and (min-width: 641px) and (max-width: 713px) {
+        #about_me .background_center span {
+          text-align: left;
+          margin-left: 45px;
+          margin-right: 45px; } }
+      @media screen and (min-width: 714px) and (max-width: 799px) {
+        #about_me .background_center span {
+          text-align: left;
+          margin-left: 75px;
+          margin-right: 75px; } }
+      @media screen and (min-width: 800px) and (max-width: 1024px) {
+        #about_me .background_center span {
+          text-align: left;
+          padding-right: 30px; } }
+      @media screen and (min-width: 1025px) and (max-width: 1100px) {
+        #about_me .background_center span {
+          text-align: left;
+          padding-right: 30px;
+          line-height: 1.5; } }
+      @media screen and (min-width: 1101px) and (max-width: 1200px) {
+        #about_me .background_center span {
+          text-align: left;
+          padding-right: 30px;
+          line-height: 1.5; } }
+      @media screen and (min-width: 1201px) and (max-width: 1366px) {
+        #about_me .background_center span {
+          text-align: left;
+          margin-right: 100px;
+          line-height: 1.5; } }
+      @media screen and (min-width: 1367px) {
+        #about_me .background_center span {
+          text-align: left;
+          margin-right: 100px; } }
+    #about_me .background_center h2 {
+      padding-bottom: 8px;
+      margin-top: 0px; }
+      @media screen and (min-width: 280px) and (max-width: 400px) {
+        #about_me .background_center h2 {
+          text-align: center;
+          padding-left: 15px;
+          padding-right: 15px; } }
+      @media screen and (min-width: 401px) and (max-width: 480px) {
+        #about_me .background_center h2 {
+          text-align: left;
+          margin-left: 25px;
+          margin-right: 11px; } }
+      @media screen and (min-width: 481px) and (max-width: 640px) {
+        #about_me .background_center h2 {
+          text-align: left;
+          margin-left: 46px;
+          margin-right: 11px; } }
+      @media screen and (min-width: 641px) and (max-width: 713px) {
+        #about_me .background_center h2 {
+          text-align: left;
+          margin-left: 45px;
+          margin-right: 45px; } }
+      @media screen and (min-width: 714px) and (max-width: 799px) {
+        #about_me .background_center h2 {
+          text-align: left;
+          margin-left: 75px;
+          margin-right: 75px; } }
+      @media screen and (min-width: 800px) and (max-width: 1366px) {
+        #about_me .background_center h2 {
+          text-align: left; } }
+      @media screen and (min-width: 1367px) {
+        #about_me .background_center h2 {
+          text-align: left; } }
+    #about_me .background_center .read_on {
+      font-size: 16px;
+      color: #007DC5;
+      font-weight: 700;
+      padding-bottom: 1px;
+      padding-top: 1px;
+      text-align: center; }
+      @media screen and (min-width: 401px) {
+        #about_me .background_center .read_on {
+          text-align: left; } }
+    #about_me .background_center p {
+      padding-bottom: 8px;
+      margin-top: 0px; }
+      @media screen and (max-width: 320px) {
+        #about_me .background_center p {
+          text-align: center; } }
+      @media screen and (min-width: 321px) and (max-width: 480px) {
+        #about_me .background_center p {
+          text-align: start;
+          padding-left: 25px;
+          padding-right: 15px; } }
+      @media screen and (min-width: 481px) and (max-width: 640px) {
+        #about_me .background_center p {
+          text-align: start;
+          margin-left: 45px;
+          margin-right: 45px; } }
+      @media screen and (min-width: 641px) and (max-width: 713px) {
+        #about_me .background_center p {
+          text-align: start;
+          margin-left: 45px;
+          margin-right: 45px; } }
+      @media screen and (min-width: 714px) and (max-width: 799px) {
+        #about_me .background_center p {
+          text-align: start;
+          margin-left: 75px;
+          margin-right: 75px; } }
+      @media screen and (min-width: 800px) and (max-width: 1366px) {
+        #about_me .background_center p {
+          text-align: left; } }
+      @media screen and (min-width: 1367px) {
+        #about_me .background_center p {
+          text-align: left; } }
+    #about_me .background_center article {
+      padding-left: 5px;
+      padding-right: 5px;
+      text-align: center;
+      color: #007DC5;
+      font-weight: 500;
+      font-size: 16px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+      @media screen and (min-width: 321px) and (max-width: 400px) {
+        #about_me .background_center article {
+          padding-left: 25px;
+          padding-right: 25px;
+          text-align: center;
+          font-size: 13px; } }
+      @media screen and (min-width: 401px) and (max-width: 480px) {
+        #about_me .background_center article {
+          text-align: left;
+          margin-left: 22px;
+          margin-right: 11px; } }
+      @media screen and (min-width: 481px) and (max-width: 640px) {
+        #about_me .background_center article {
+          text-align: left;
+          margin-left: 45px;
+          margin-right: 45px; } }
+      @media screen and (min-width: 641px) and (max-width: 713px) {
+        #about_me .background_center article {
+          text-align: left;
+          margin-left: 45px;
+          margin-right: 45px; } }
+      @media screen and (min-width: 714px) and (max-width: 799px) {
+        #about_me .background_center article {
+          text-align: left;
+          margin-left: 75px;
+          margin-right: 75px; } }
+      @media screen and (min-width: 800px) and (max-width: 1024px) {
+        #about_me .background_center article {
+          text-align: left;
+          margin-right: 75px; } }
+      @media screen and (min-width: 1025px) and (max-width: 1100px) {
+        #about_me .background_center article {
+          text-align: left;
+          margin-right: 75px;
+          line-height: 1.5; } }
+      @media screen and (min-width: 1101px) and (max-width: 1366px) {
+        #about_me .background_center article {
+          text-align: left;
+          margin-right: 100px;
+          line-height: 1.5; } }
+      @media screen and (min-width: 1367px) {
+        #about_me .background_center article {
+          text-align: left;
+          margin-right: 100px;
+          line-height: 1.5; } }
+    @media screen and (min-width: 800px) and (max-width: 1024px) {
+      #about_me .background_center .holdfats_left_side {
+        display: block;
+        width: 50%;
+        float: left; } }
+    @media screen and (min-width: 1025px) and (max-width: 1100px) {
+      #about_me .background_center .holdfats_left_side {
+        display: block;
+        width: 50%;
+        float: left; } }
+    @media screen and (min-width: 1101px) and (max-width: 1200px) {
+      #about_me .background_center .holdfats_left_side {
+        display: block;
+        width: 50%;
+        float: left; } }
+    @media screen and (min-width: 1201px) and (max-width: 1366px) {
+      #about_me .background_center .holdfats_left_side {
+        display: block;
+        width: 50%;
+        float: left; } }
+    @media screen and (min-width: 1367px) {
+      #about_me .background_center .holdfats_left_side {
+        display: block;
+        width: 50%;
+        float: left; } }
+    #about_me .background_center .foto_about_me {
+      height: 145px;
+      margin: 0 5% 0 5%; }
+      @media screen and (min-width: 481px) and (max-width: 640px) {
+        #about_me .background_center .foto_about_me {
+          height: 201px;
+          margin: 0 7% 0 7%; } }
+      @media screen and (min-width: 641px) and (max-width: 799px) {
+        #about_me .background_center .foto_about_me {
+          height: 231px; } }
+      @media screen and (min-width: 800px) and (max-width: 1024px) {
+        #about_me .background_center .foto_about_me {
+          height: 381px; } }
+      @media screen and (min-width: 1025px) and (max-width: 1366px) {
+        #about_me .background_center .foto_about_me {
+          height: 390px; } }
+      @media screen and (min-width: 1367px) {
+        #about_me .background_center .foto_about_me {
+          height: 390px; } }
+      #about_me .background_center .foto_about_me #foto_portrait_up img {
+        box-shadow: 5px 5px 10px;
+        width: 159px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        margin-top: 25px; }
+        @media screen and (min-width: 321px) and (max-width: 400px) {
+          #about_me .background_center .foto_about_me #foto_portrait_up img {
+            width: 50%;
+            float: center; } }
+        @media screen and (min-width: 401px) and (max-width: 479px) {
+          #about_me .background_center .foto_about_me #foto_portrait_up img {
+            width: 50%;
+            float: center; } }
+        @media screen and (min-width: 401px) and (max-width: 480px) {
+          #about_me .background_center .foto_about_me #foto_portrait_up img {
+            width: 50%;
+            float: center; } }
+        @media screen and (min-width: 481px) and (max-width: 640px) {
+          #about_me .background_center .foto_about_me #foto_portrait_up img {
+            width: 185px;
+            float: left; } }
+        @media screen and (min-width: 641px) and (max-width: 799px) {
+          #about_me .background_center .foto_about_me #foto_portrait_up img {
+            width: 120px;
+            float: left;
+            display: block;
+            margin-left: 32px;
+            margin-right: 10%; } }
+        @media screen and (min-width: 1025px) and (max-width: 1366px) {
+          #about_me .background_center .foto_about_me #foto_portrait_up img {
+            width: 185px;
+            float: none;
+            display: block;
+            margin: 0 auto; } }
+        @media screen and (min-width: 1367px) {
+          #about_me .background_center .foto_about_me #foto_portrait_up img {
+            width: 185px;
+            float: none;
+            display: block;
+            margin: 0 auto; } }
+      #about_me .background_center .foto_about_me #foto_portrait_dunes img {
+        box-shadow: 5px 5px 10px;
+        width: 159px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        margin-top: 25px;
+        display: none; }
+        @media screen and (min-width: 481px) and (max-width: 640px) {
+          #about_me .background_center .foto_about_me #foto_portrait_dunes img {
+            width: 185px;
+            float: right;
+            display: block; } }
+        @media screen and (min-width: 641px) and (max-width: 799px) {
+          #about_me .background_center .foto_about_me #foto_portrait_dunes img {
+            width: 120px;
+            float: left;
+            margin-right: 7%;
+            display: block;
+            margin-left: 2%; } }
+        @media screen and (min-width: 1025px) and (max-width: 1366px) {
+          #about_me .background_center .foto_about_me #foto_portrait_dunes img {
+            width: 185px;
+            float: none;
+            margin: 35px auto;
+            display: block; } }
+        @media screen and (min-width: 1367px) {
+          #about_me .background_center .foto_about_me #foto_portrait_dunes img {
+            width: 185px;
+            float: none;
+            margin: 35px auto;
+            display: block; } }
+      @media screen and (min-width: 481px) and (max-width: 640px) {
+        #about_me .background_center .foto_about_me #foto_portrait_dunes {
+          display: block; } }
+      @media screen and (min-width: 401px) and (max-width: 480px) {
+        #about_me .background_center .foto_about_me #foto_portrait_dunes {
+          display: block; } }
+      @media screen and (min-width: 481px) and (max-width: 640px) {
+        #about_me .background_center .foto_about_me #foto_portrait_dunes {
+          display: block; } }
+      @media screen and (min-width: 641px) and (max-width: 799px) {
+        #about_me .background_center .foto_about_me #foto_portrait_dunes {
+          display: block; } }
+      @media screen and (min-width: 800px) and (max-width: 1366px) {
+        #about_me .background_center .foto_about_me #foto_portrait_dunes {
+          display: block; } }
+      @media screen and (min-width: 1367px) {
+        #about_me .background_center .foto_about_me #foto_portrait_dunes {
+          display: block; } }
+      #about_me .background_center .foto_about_me #foto_portrait_contemplate {
+        display: none; }
+        @media screen and (min-width: 681px) {
+          #about_me .background_center .foto_about_me #foto_portrait_contemplate {
+            display: block; }
+            #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
+              box-shadow: 5px 5px 10px;
+              width: 159px;
+              display: block;
+              margin: 0 auto;
+              margin-bottom: 0px;
+              margin-top: 25px; } }
+    @media screen and (min-width: 681px) and (min-width: 681px) and (max-width: 640px) {
+      #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
+        width: 185px;
+        float: left;
+        display: block; } }
+    @media screen and (min-width: 681px) and (min-width: 641px) and (max-width: 799px) {
+      #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
+        width: 120px;
+        float: left;
+        display: block;
+        margin-right: 6%;
+        margin-left: 6%; } }
+    @media screen and (min-width: 681px) and (min-width: 1025px) and (max-width: 1100px) {
+      #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
+        width: 185px;
+        float: none;
+        margin: 35px auto; } }
+    @media screen and (min-width: 681px) and (min-width: 1101px) and (max-width: 1200px) {
+      #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
+        width: 185px;
+        float: none;
+        margin: 35px auto; } }
+    @media screen and (min-width: 681px) and (min-width: 1201px) and (max-width: 1366px) {
+      #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
+        width: 185px;
+        float: none;
+        margin: 35px auto; } }
+    @media screen and (min-width: 681px) and (min-width: 1367px) {
+      #about_me .background_center .foto_about_me #foto_portrait_contemplate img {
+        width: 185px;
+        float: none;
+        margin: 35px auto;
+        display: block; } }
+  @media screen and (min-width: 681px) and (min-width: 481px) and (max-width: 640px) {
+    #about_me .background_center .foto_about_me #foto_portrait_contemplate {
+      display: block; } }
+  @media screen and (min-width: 681px) and (min-width: 401px) and (max-width: 480px) {
+    #about_me .background_center .foto_about_me #foto_portrait_contemplate {
+      display: block; } }
+  @media screen and (min-width: 681px) and (min-width: 481px) and (max-width: 640px) {
+    #about_me .background_center .foto_about_me #foto_portrait_contemplate {
+      display: block; } }
+  @media screen and (min-width: 681px) and (min-width: 641px) and (max-width: 799px) {
+    #about_me .background_center .foto_about_me #foto_portrait_contemplate {
+      display: block; } }
+  @media screen and (min-width: 681px) and (min-width: 800px) and (max-width: 1366px) {
+    #about_me .background_center .foto_about_me #foto_portrait_contemplate {
+      display: block; } }
+  @media screen and (min-width: 681px) and (min-width: 1367px) {
+    #about_me .background_center .foto_about_me #foto_portrait_contemplate {
+      display: block; } }
+
+    #about_me .background_center #line_curve {
+      background-image: url(../images/curve_line.png);
+      background-repeat: no-repeat;
+      height: 77px; }
+    #about_me .background_center aside {
+      color: #fff; }
+      @media screen and (min-width: 1025px) and (max-width: 1366px) {
+        #about_me .background_center aside {
+          margin-top: 7%; } }
+      @media screen and (min-width: 1367px) {
+        #about_me .background_center aside {
+          margin-top: 7%; } }
+      #about_me .background_center aside h5 {
+        font-weight: 14px;
+        font-size: 15px;
+        margin-top: -54px;
+        margin-left: 38px; }
+        @media screen and (min-width: 641px) and (max-width: 712px) {
+          #about_me .background_center aside h5 {
+            text-align: start; } }
+        @media screen and (min-width: 713px) and (max-width: 799px) {
+          #about_me .background_center aside h5 {
+            text-align: start; } }
+        @media screen and (min-width: 1025px) and (max-width: 1366px) {
+          #about_me .background_center aside h5 {
+            text-align: start; } }
+        @media screen and (min-width: 1367px) {
+          #about_me .background_center aside h5 {
+            text-align: start; } }
+      #about_me .background_center aside span {
+        font-weight: 400;
+        font-size: 15px;
+        color: #fff;
+        padding-top: 0px;
+        margin-left: 5px;
+        margin-right: 5px; }
+        @media screen and (min-width: 481px) and (max-width: 640px) {
+          #about_me .background_center aside span {
+            margin-left: 45px;
+            margin-right: 45px; } }
+        @media screen and (min-width: 641px) and (max-width: 712px) {
+          #about_me .background_center aside span {
+            text-align: start;
+            margin-left: 45px;
+            margin-right: 45px; } }
+        @media screen and (min-width: 713px) and (max-width: 799px) {
+          #about_me .background_center aside span {
+            text-align: start;
+            margin-left: 75px;
+            margin-right: 75px; } }
+        @media screen and (min-width: 1025px) and (max-width: 1366px) {
+          #about_me .background_center aside span {
+            text-align: start;
+            margin-left: 75px;
+            margin-right: 75px; } }
+        @media screen and (min-width: 1367px) {
+          #about_me .background_center aside span {
+            text-align: start;
+            margin-left: 75px;
+            margin-right: 75px; } }
+  #about_me .background_bottom {
+    display: none; }
+    @media screen and (min-width: 800px) {
+      #about_me .background_bottom {
+        background-image: url(../images/background_grey_down.png);
+        height: 209px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block; } }
+    @media screen and (min-width: 1350px) {
+      #about_me .background_bottom {
+        background-image: url(../images/background_grey_down.png);
+        height: 215px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block; } }
+    @media screen and (min-width: 1490px) {
+      #about_me .background_bottom {
+        height: 240px; } }
+    @media screen and (min-width: 1686px) {
+      #about_me .background_bottom {
+        height: 260px; } }
+    @media screen and (min-width: 1687px) {
+      #about_me .background_bottom {
+        height: 280px; } }
+
+#terapy {
+  text-align: center;
+  background-image: url(../images/silhouette_30875191_small.png);
+  background-repeat: no-repeat;
+  background-position-x: 43px;
+  background-position-y: 100%;
+  background-size: 80%; }
+  @media screen and (min-width: 401px) and (max-width: 480px) {
+    #terapy {
+      text-align: left;
+      margin-left: 35px;
+      margin-right: 35px; } }
+  @media screen and (min-width: 481px) and (max-width: 640px) {
+    #terapy {
+      background-size: 72%;
+      background-position: 70% bottom;
+      margin-left: 55px;
+      margin-right: 55px;
+      text-align: left;
+      padding-bottom: 15%; } }
+  @media screen and (min-width: 641px) and (max-width: 713px) {
+    #terapy {
+      text-align: left;
+      margin-left: 45px;
+      margin-right: 45px;
+      background-position: 84% 101%;
+      height: 1132px; } }
+  @media screen and (min-width: 714px) and (max-width: 799px) {
+    #terapy {
+      margin-left: 75px;
+      margin-right: 75px;
+      text-align: left;
+      background-position: 90% 108%; } }
+  @media screen and (min-width: 773px) and (max-width: 799px) {
+    #terapy {
+      background-position: 77% bottom;
+      background-size: 72%; } }
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    #terapy {
+      background-image: url(../images/silhouette-3087519_light.png);
+      text-align: left;
+      background-position-x: 9px;
+      background-position-y: 105%;
+      background-size: 47%;
+      height: 850px; } }
+  @media screen and (min-width: 901px) and (max-width: 1100px) {
+    #terapy {
+      height: 840px;
+      background-image: url(../images/silhouette-3087519_light.png);
+      background-position-x: 18%;
+      background-position-y: 105%;
+      background-size: 35%; } }
+  @media screen and (min-width: 1101px) and (max-width: 1200px) {
+    #terapy {
+      height: 850px;
+      background-image: url(../images/silhouette-3087519.png);
+      background-position-x: 15%;
+      background-position-y: 105%;
+      background-size: 31%; } }
+  @media screen and (min-width: 1201px) and (max-width: 1366px) {
+    #terapy {
+      height: 800px;
+      background-image: url(../images/silhouette-3087519.png);
+      background-position-x: 15%;
+      background-position-y: 105%;
+      background-size: 29%; } }
+  @media screen and (min-width: 1367px) {
+    #terapy {
+      height: 800px;
+      background-image: url(../images/silhouette-3087519.png);
+      background-position-x: 15%;
+      background-position-y: 105%;
+      background-size: 26%; } }
+  @media screen and (min-width: 1637px) {
+    #terapy {
+      height: 800px;
+      background-image: url(../images/silhouette-3087519.png);
+      background-position-x: 15%;
+      background-position-y: 105%;
+      background-size: 22%; } }
+  @media screen and (min-width: 1900px) {
+    #terapy {
+      height: 800px;
+      background-image: url(../images/silhouette-3087519.png);
+      background-position-x: 15%;
+      background-position-y: 105%;
+      background-size: 22%; } }
+  @media screen and (min-width: 2051px) {
+    #terapy {
+      height: 800px;
+      background-image: url(../images/silhouette-3087519.png);
+      background-position-x: 15%;
+      background-position-y: 105%;
+      background-size: 22%; } }
+  #terapy article h3 {
+    font-family: 800;
+    font-size: 16px;
+    padding-top: 5px; }
+    @media screen and (min-width: 800px) and (max-width: 1366px) {
+      #terapy article h3 {
+        font-size: 15px; } }
+    @media screen and (min-width: 1367px) {
+      #terapy article h3 {
+        font-size: 15px; } }
+  #terapy article h5 {
+    font-family: 400;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  #terapy article .contents {
+    font-family: 400;
+    font-size: 13px; }
+    @media screen and (min-width: 481px) and (max-width: 640px) {
+      #terapy article .contents {
+        text-align: justify; } }
+  #terapy article .read_on {
+    font-size: 13px;
+    font-weight: 700; }
+    @media screen and (min-width: 481px) and (max-width: 640px) {
+      #terapy article .read_on {
+        text-align: right;
+        margin-right: 30px; } }
+    @media screen and (min-width: 641px) and (max-width: 799px) {
+      #terapy article .read_on {
+        text-align: right;
+        margin-right: 30px; } }
+    @media screen and (min-width: 800px) and (max-width: 1366px) {
+      #terapy article .read_on {
+        text-align: right;
+        margin-right: 30px; } }
+    @media screen and (min-width: 1367px) {
+      #terapy article .read_on {
+        text-align: right;
+        margin-right: 30px; } }
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    #terapy .clog_the_hole {
+      width: 10%; } }
+  @media screen and (min-width: 901px) and (max-width: 1100px) {
+    #terapy .clog_the_hole {
+      display: none; } }
+  @media screen and (min-width: 1101px) and (max-width: 1200px) {
+    #terapy .clog_the_hole {
+      width: 40%;
+      float: left;
+      height: 100%; } }
+  @media screen and (min-width: 1201px) and (max-width: 1366px) {
+    #terapy .clog_the_hole {
+      width: 40%;
+      height: 100%;
+      float: left; } }
+  @media screen and (min-width: 1367px) {
+    #terapy .clog_the_hole {
+      width: 40%;
+      height: 100%;
+      float: left; } }
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    #terapy .holdfast_left_therapy {
+      width: 50%;
+      float: left; } }
+  @media screen and (min-width: 901px) and (max-width: 1100px) {
+    #terapy .holdfast_left_therapy {
+      width: 50%;
+      float: left; } }
+  @media screen and (min-width: 1101px) and (max-width: 1200px) {
+    #terapy .holdfast_left_therapy {
+      width: 30%;
+      float: left; } }
+  @media screen and (min-width: 1201px) and (max-width: 1366px) {
+    #terapy .holdfast_left_therapy {
+      width: 30%;
+      float: left; } }
+  @media screen and (min-width: 1367px) {
+    #terapy .holdfast_left_therapy {
+      width: 30%;
+      float: left; } }
+  #terapy .holdfast_left_therapy #method_zdenko {
+    line-height: 1; }
+    #terapy .holdfast_left_therapy #method_zdenko a {
+      color: #000000; }
+    @media screen and (min-width: 800px) and (max-width: 900px) {
+      #terapy .holdfast_left_therapy #method_zdenko {
+        width: 90%;
+        margin-right: 15px;
+        float: right; } }
+    @media screen and (min-width: 901px) and (max-width: 1024px) {
+      #terapy .holdfast_left_therapy #method_zdenko {
+        width: 90%;
+        margin-right: 15px;
+        float: right;
+        text-align: start; } }
+    @media screen and (min-width: 1025px) and (max-width: 1100px) {
+      #terapy .holdfast_left_therapy #method_zdenko {
+        text-align: start;
+        margin-left: 100px;
+        width: 80%; } }
+    @media screen and (min-width: 1101px) and (max-width: 1200px) {
+      #terapy .holdfast_left_therapy #method_zdenko {
+        text-align: start;
+        margin-right: 32px; } }
+    @media screen and (min-width: 1201px) and (max-width: 1366px) {
+      #terapy .holdfast_left_therapy #method_zdenko {
+        text-align: start;
+        margin-right: 32px; } }
+    @media screen and (min-width: 1367px) {
+      #terapy .holdfast_left_therapy #method_zdenko {
+        text-align: start;
+        margin-right: 32px; } }
+  #terapy .holdfast_left_therapy #method_zdenko_1 {
+    color: #007DC5;
+    line-height: 1; }
+    #terapy .holdfast_left_therapy #method_zdenko_1 a {
+      color: #007DC5; }
+    @media screen and (min-width: 800px) and (max-width: 900px) {
+      #terapy .holdfast_left_therapy #method_zdenko_1 {
+        width: 90%;
+        margin-right: 15px;
+        float: right; } }
+    @media screen and (min-width: 901px) and (max-width: 1024px) {
+      #terapy .holdfast_left_therapy #method_zdenko_1 {
+        width: 90%;
+        margin-right: 15px;
+        float: right;
+        text-align: start; } }
+    @media screen and (min-width: 1025px) and (max-width: 1100px) {
+      #terapy .holdfast_left_therapy #method_zdenko_1 {
+        width: 80%;
+        text-align: start;
+        margin-left: 100px; } }
+    @media screen and (min-width: 1101px) and (max-width: 1200px) {
+      #terapy .holdfast_left_therapy #method_zdenko_1 {
+        text-align: start;
+        margin-right: 32px; } }
+    @media screen and (min-width: 1201px) and (max-width: 1366px) {
+      #terapy .holdfast_left_therapy #method_zdenko_1 {
+        text-align: start;
+        margin-right: 32px; } }
+    @media screen and (min-width: 1367px) {
+      #terapy .holdfast_left_therapy #method_zdenko_1 {
+        text-align: start;
+        margin-right: 32px; } }
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    #terapy .holdfast_right_therapy {
+      width: 50%;
+      float: left;
+      text-align: start; } }
+  @media screen and (min-width: 901px) and (max-width: 1100px) {
+    #terapy .holdfast_right_therapy {
+      width: 50%;
+      float: right;
+      text-align: start; } }
+  @media screen and (min-width: 1101px) and (max-width: 1200px) {
+    #terapy .holdfast_right_therapy {
+      width: 30%;
+      float: left; } }
+  @media screen and (min-width: 1201px) and (max-width: 1366px) {
+    #terapy .holdfast_right_therapy {
+      width: 30%;
+      float: left; } }
+  @media screen and (min-width: 1367px) {
+    #terapy .holdfast_right_therapy {
+      width: 30%;
+      float: left; } }
+  #terapy .holdfast_right_therapy #method_zdenko_2 {
+    color: #2f2f69;
+    line-height: 1; }
+    #terapy .holdfast_right_therapy #method_zdenko_2 a {
+      color: #2f2f69; }
+    @media screen and (min-width: 800px) and (max-width: 900px) {
+      #terapy .holdfast_right_therapy #method_zdenko_2 {
+        width: 90%;
+        margin-right: 15px;
+        float: right; } }
+    @media screen and (min-width: 901px) and (max-width: 1100px) {
+      #terapy .holdfast_right_therapy #method_zdenko_2 {
+        width: 80%;
+        margin-right: 15px;
+        float: right; } }
+    @media screen and (min-width: 1025px) and (max-width: 1100px) {
+      #terapy .holdfast_right_therapy #method_zdenko_2 {
+        width: 80%;
+        float: right; } }
+    @media screen and (min-width: 1101px) and (max-width: 1200px) {
+      #terapy .holdfast_right_therapy #method_zdenko_2 {
+        text-align: start;
+        margin-right: 32px; } }
+    @media screen and (min-width: 1201px) and (max-width: 1366px) {
+      #terapy .holdfast_right_therapy #method_zdenko_2 {
+        text-align: start;
+        margin-right: 32px; } }
+    @media screen and (min-width: 1367px) {
+      #terapy .holdfast_right_therapy #method_zdenko_2 {
+        text-align: start;
+        margin-right: 32px; } }
+  #terapy .holdfast_right_therapy #method_zdenko_3 {
+    color: #758036;
+    line-height: 1; }
+    #terapy .holdfast_right_therapy #method_zdenko_3 a {
+      color: #758036; }
+    @media screen and (min-width: 800px) and (max-width: 900px) {
+      #terapy .holdfast_right_therapy #method_zdenko_3 {
+        width: 90%;
+        margin-right: 15px;
+        float: right; } }
+    @media screen and (min-width: 901px) and (max-width: 1024px) {
+      #terapy .holdfast_right_therapy #method_zdenko_3 {
+        width: 80%;
+        margin-right: 15px;
+        float: right; } }
+    @media screen and (min-width: 1025px) and (max-width: 1100px) {
+      #terapy .holdfast_right_therapy #method_zdenko_3 {
+        width: 80%;
+        float: right;
+        text-align: start;
+        margin-right: 14px;
+        margin-left: 15px; } }
+    @media screen and (min-width: 1101px) and (max-width: 1200px) {
+      #terapy .holdfast_right_therapy #method_zdenko_3 {
+        text-align: start;
+        margin-right: 32px; } }
+    @media screen and (min-width: 1201px) and (max-width: 1366px) {
+      #terapy .holdfast_right_therapy #method_zdenko_3 {
+        text-align: start;
+        margin-right: 32px; } }
+    @media screen and (min-width: 1367px) {
+      #terapy .holdfast_right_therapy #method_zdenko_3 {
+        text-align: start;
+        margin-right: 32px; } }
+  #terapy .holdfast_right_therapy #method_zdenko_4 {
+    color: #ab3d3d;
+    line-height: 1; }
+    #terapy .holdfast_right_therapy #method_zdenko_4 a {
+      color: #ab3d3d; }
+    @media screen and (min-width: 800px) and (max-width: 900px) {
+      #terapy .holdfast_right_therapy #method_zdenko_4 {
+        width: 90%;
+        margin-right: 15px;
+        float: right; } }
+    @media screen and (min-width: 901px) and (max-width: 1024px) {
+      #terapy .holdfast_right_therapy #method_zdenko_4 {
+        width: 80%;
+        margin-right: 15px;
+        float: right; } }
+    @media screen and (min-width: 1025px) and (max-width: 1100px) {
+      #terapy .holdfast_right_therapy #method_zdenko_4 {
+        width: 80%;
+        margin-right: 15px;
+        float: right; } }
+    @media screen and (min-width: 1101px) and (max-width: 1200px) {
+      #terapy .holdfast_right_therapy #method_zdenko_4 {
+        text-align: start;
+        margin-right: 32px; } }
+    @media screen and (min-width: 1201px) and (max-width: 1366px) {
+      #terapy .holdfast_right_therapy #method_zdenko_4 {
+        text-align: start;
+        margin-right: 32px; } }
+    @media screen and (min-width: 1367px) {
+      #terapy .holdfast_right_therapy #method_zdenko_4 {
+        text-align: start;
+        margin-right: 32px; } }
+
+#gallery {
+  height: 290px; }
+  @media screen and (min-width: 401px) and (max-width: 401px) {
+    #gallery {
+      height: auto;
+      position: relative;
+      padding-bottom: 25px; } }
+  @media screen and (min-width: 402px) and (max-width: 480px) {
+    #gallery {
+      height: auto; } }
+  @media screen and (min-width: 481px) and (max-width: 512px) {
+    #gallery {
+      height: auto; } }
+  @media screen and (min-width: 513px) and (max-width: 551px) {
+    #gallery {
+      height: auto; } }
+  @media screen and (min-width: 552px) and (max-width: 640px) {
+    #gallery {
+      height: auto; } }
+  @media screen and (min-width: 641px) and (max-width: 713px) {
+    #gallery {
+      height: auto; } }
+  @media screen and (min-width: 714px) and (max-width: 799px) {
+    #gallery {
+      height: auto; } }
+  @media screen and (min-width: 800px) and (max-width: 831px) {
+    #gallery {
+      height: auto;
+      margin-top: -6%; } }
+  @media screen and (min-width: 832px) and (max-width: 850px) {
+    #gallery {
+      height: auto;
+      margin-top: -6%; } }
+  @media screen and (min-width: 851px) and (max-width: 900px) {
+    #gallery {
+      height: auto;
+      margin-top: -6%; } }
+  @media screen and (min-width: 901px) and (max-width: 950px) {
+    #gallery {
+      height: auto;
+      margin-top: -8%; } }
+  @media screen and (min-width: 951px) and (max-width: 1000px) {
+    #gallery {
+      height: auto;
+      margin-top: -8%; } }
+  @media screen and (min-width: 1001px) and (max-width: 1100px) {
+    #gallery {
+      height: auto;
+      margin-top: -8%; } }
+  @media screen and (min-width: 1101px) and (max-width: 1200px) {
+    #gallery {
+      height: auto;
+      margin-top: -5%; } }
+  @media screen and (min-width: 1201px) and (max-width: 1366px) {
+    #gallery {
+      height: auto;
+      margin-top: -3%; } }
+  @media screen and (min-width: 1367px) {
+    #gallery {
+      height: auto;
+      margin-top: -3%; } }
+  @media screen and (min-width: 1700px) {
+    #gallery {
+      height: auto;
+      margin-top: -8%; } }
+  @media screen and (min-width: 1700px) {
+    #gallery {
+      height: auto;
+      margin-top: -8%; } }
+  @media screen and (min-width: 1900px) {
+    #gallery {
+      height: auto;
+      margin-top: -8%; } }
+  #gallery .background_up {
+    background-image: url(../images/background_grey_up_small_480.png);
+    height: 97px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: -11px; }
+    @media screen and (min-width: 321px) and (max-width: 401px) {
+      #gallery .background_up {
+        background-size: 100%; } }
+    @media screen and (min-width: 402px) and (max-width: 480px) {
+      #gallery .background_up {
+        background-size: 100%; } }
+    @media screen and (min-width: 481px) and (max-width: 640px) {
+      #gallery .background_up {
+        margin-top: -10%;
+        height: 170px; } }
+    @media screen and (min-width: 641px) and (max-width: 799px) {
+      #gallery .background_up {
+        margin-top: -4%;
+        height: 170px; } }
+    @media screen and (min-width: 800px) and (max-width: 900px) {
+      #gallery .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 112px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 901px) and (max-width: 1050px) {
+      #gallery .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 125px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1050px) and (max-width: 1100px) {
+      #gallery .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 143px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1101px) and (max-width: 1200px) {
+      #gallery .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 153px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1201px) and (max-width: 1366px) {
+      #gallery .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 170px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1366px) {
+      #gallery .background_up {
+        background-image: url(../images/background_grey_up.png);
+        height: 167px;
+        background-repeat: no-repeat;
+        background-size: 100%; } }
+    @media screen and (min-width: 1400px) {
+      #gallery .background_up {
+        height: 200px; } }
+    @media screen and (min-width: 1500px) {
+      #gallery .background_up {
+        height: 219px; } }
+    @media screen and (min-width: 1600px) {
+      #gallery .background_up {
+        height: 230px; } }
+    @media screen and (min-width: 1700px) {
+      #gallery .background_up {
+        height: 239px; } }
+    @media screen and (min-width: 1800px) {
+      #gallery .background_up {
+        height: 239px; } }
+    @media screen and (min-width: 1900px) {
+      #gallery .background_up {
+        height: 239px; } }
+  #gallery .background_center {
+    background-color: #c8c8c7;
+    padding-bottom: 10px; }
+    @media screen and (min-width: 401px) and (max-width: 480px) {
+      #gallery .background_center {
+        position: absolute; } }
+    @media screen and (min-width: 800px) and (max-width: 900px) {
+      #gallery .background_center {
+        height: auto; } }
+    @media screen and (min-width: 901px) and (max-width: 1100px) {
+      #gallery .background_center {
+        height: auto; } }
+    @media screen and (min-width: 1101px) and (max-width: 1200px) {
+      #gallery .background_center {
+        height: auto; } }
+    @media screen and (min-width: 1201px) and (max-width: 1366px) {
+      #gallery .background_center {
+        height: auto; } }
+    @media screen and (min-width: 1367) {
+      #gallery .background_center {
+        height: auto; } }
+    @media screen and (min-width: 1900px) {
+      #gallery .background_center {
+        height: auto; } }
+    @media screen and (min-width: 401px) {
+      #gallery .background_center .foto_gallery_small {
+        display: none; } }
+    @media screen and (min-width: 481px) and (max-width: 1366px) {
+      #gallery .background_center .foto_gallery_small {
+        display: none; } }
+    @media screen and (min-width: 1367px) {
+      #gallery .background_center .foto_gallery_small {
+        display: none; } }
+    #gallery .background_center .foto_gallery_small img {
+      box-shadow: 5px 5px 10px;
+      width: 159px;
+      display: block;
+      margin: 0% auto; }
+    #gallery .background_center .read_on {
+      color: #007DC5;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: center; }
+      @media screen and (min-width: 401px) {
+        #gallery .background_center .read_on {
+          display: none; } }
+    #gallery .background_center p {
+      text-align: center; }
+      @media screen and (min-width: 401px) {
+        #gallery .background_center p {
+          display: none; } }
+    #gallery .background_center .all_foto_gallery {
+      display: none; }
+      @media screen and (min-width: 401px) and (max-width: 640px) {
+        #gallery .background_center .all_foto_gallery {
+          display: block;
+          margin: 0 5% 0 5%; }
+          #gallery .background_center .all_foto_gallery img {
+            box-shadow: 5px 5px 10px;
+            width: 45%;
+            margin: 2%; } }
+      @media screen and (min-width: 641px) and (max-width: 799px) {
+        #gallery .background_center .all_foto_gallery {
+          display: block;
+          margin: 0 5% 0 5%; }
+          #gallery .background_center .all_foto_gallery img {
+            box-shadow: 5px 5px 10px;
+            width: 45%;
+            margin: 2%; } }
+      @media screen and (min-width: 800px) and (max-width: 900px) {
+        #gallery .background_center .all_foto_gallery {
+          display: block; }
+          #gallery .background_center .all_foto_gallery img {
+            box-shadow: 5px 5px 5px;
+            width: 35%;
+            margin: 2%; } }
+      @media screen and (min-width: 901px) and (max-width: 1366px) {
+        #gallery .background_center .all_foto_gallery {
+          display: block; }
+          #gallery .background_center .all_foto_gallery img {
+            box-shadow: 5px 5px 5px;
+            width: 20%;
+            margin: 2%; } }
+      @media screen and (min-width: 1367px) {
+        #gallery .background_center .all_foto_gallery {
+          display: block; }
+          #gallery .background_center .all_foto_gallery img {
+            box-shadow: 5px 5px 5px;
+            width: 20%;
+            margin: 2%; } }
+      @media screen and (min-width: 1900px) {
+        #gallery .background_center .all_foto_gallery {
+          display: block; } }
+      @media screen and (min-width: 901px) {
+        #gallery .background_center .all_foto_gallery .first_row img {
+          float: right; } }
+  #gallery .background_bottom {
+    display: none; }
+    @media screen and (min-width: 800px) and (max-width: 900px) {
+      #gallery .background_bottom {
+        background-image: url(../images/background_grey_down.png);
+        height: 145px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block; } }
+    @media screen and (min-width: 901px) and (max-width: 1100px) {
+      #gallery .background_bottom {
+        background-image: url(../images/background_grey_down.png);
+        height: 170px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block; } }
+    @media screen and (min-width: 1101px) and (max-width: 1200px) {
+      #gallery .background_bottom {
+        background-image: url(../images/background_grey_down.png);
+        height: 170px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block; } }
+    @media screen and (min-width: 1201px) and (max-width: 1366px) {
+      #gallery .background_bottom {
+        background-image: url(../images/background_grey_down.png);
+        height: 196px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block; } }
+    @media screen and (min-width: 1366px) {
+      #gallery .background_bottom {
+        background-image: url(../images/background_grey_down.png);
+        height: 266px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block; } }
+    @media screen and (min-width: 1900px) {
+      #gallery .background_bottom {
+        height: 265px; } }
+
+#contact {
+  height: 451px;
+  background-image: url(../images/silhouette-3087521_small.png);
+  background-size: 62%;
+  background-repeat: no-repeat;
+  background-position-x: 102%;
+  background-position-x: bottom; }
+  @media screen and (min-width: 402px) and (max-width: 420px) {
+    #contact {
+      background-position: 78% 4%; } }
+  @media screen and (min-width: 421px) and (max-width: 480px) {
+    #contact {
+      background-position: 79% -12%;
+      background-size: 58%; } }
+  @media screen and (min-width: 481px) and (max-width: 515px) {
+    #contact {
+      padding-bottom: 3%;
+      background-position-x: 65%;
+      background-position-y: bottom;
+      background-size: 50%;
+      padding-top: 5%;
+      height: 500px; } }
+  @media screen and (min-width: 516px) and (max-width: 640px) {
+    #contact {
+      height: 518px;
+      background-position-y: bottom;
+      background-position-x: 64%;
+      background-size: 45%; } }
+  @media screen and (min-width: 641px) and (max-width: 713px) {
+    #contact {
+      background-position: 64% center;
+      background-size: contain;
+      height: 500px; } }
+  @media screen and (min-width: 714px) and (max-width: 799px) {
+    #contact {
+      background-position: 64% center;
+      background-size: contain; } }
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    #contact {
+      height: 610px;
+      background-image: url(../images/silhouette-3087521_1280.png);
+      background-repeat: no-repeat;
+      background-position: 23% 81%;
+      background-size: auto 100%; } }
+  @media screen and (min-width: 901px) and (max-width: 1024px) {
+    #contact {
+      height: 621px;
+      background-image: url(../images/silhouette-3087521_1280.png);
+      background-repeat: no-repeat;
+      background-position: 23% 81%;
+      background-size: auto 100%; } }
+  @media screen and (min-width: 1025px) and (max-width: 1100px) {
+    #contact {
+      height: 621px;
+      background-image: url(../images/silhouette-3087521_1280.png);
+      background-repeat: no-repeat;
+      background-position: 23% 81%;
+      background-size: auto 100%; } }
+  @media screen and (min-width: 1101px) and (max-width: 1200px) {
+    #contact {
+      height: 621px;
+      background-image: url(../images/silhouette-3087521_1280.png);
+      background-repeat: no-repeat;
+      background-position: 23% 81%;
+      background-size: auto 100%; } }
+  @media screen and (min-width: 1201px) and (max-width: 1280px) {
+    #contact {
+      height: 621px;
+      background-image: url(../images/silhouette-3087521_1280.png);
+      background-repeat: no-repeat;
+      background-position: 25% bottom;
+      background-size: auto 100%; } }
+  @media screen and (min-width: 1281px) and (max-width: 1366px) {
+    #contact {
+      background-size: auto 100%;
+      background-position: 23% bottom;
+      height: 621px;
+      background-image: url(../images/silhouette-3087521_1280.png);
+      background-repeat: no-repeat; } }
+  @media screen and (min-width: 1367px) {
+    #contact {
+      height: 700px;
+      background-image: url(../images/silhouette-3087521_1280.png);
+      background-repeat: no-repeat;
+      background-position: 23% bottom;
+      background-size: auto 100%; } }
+  @media screen and (min-width: 800px) {
+    #contact .holdfast_left_contact {
+      width: 50%;
+      float: left; } }
+  @media screen and (min-width: 800px) and (max-width: 1200px) {
+    #contact .holdfast_right_contact {
+      width: 42%;
+      float: right;
+      margin-top: 10%; } }
+  @media screen and (min-width: 1201px) and (max-width: 1366px) {
+    #contact .holdfast_right_contact {
+      width: 35%;
+      float: right;
+      margin-top: 8%; } }
+  @media screen and (min-width: 1367px) {
+    #contact .holdfast_right_contact {
+      width: 35%;
+      float: right;
+      margin-top: 8%; } }
+  @media screen and (min-width: 279px) and (max-width: 281px) {
+    #contact ul {
+      margin-left: -11%; } }
+  @media screen and (min-width: 282px) and (max-width: 301px) {
+    #contact ul {
+      margin-left: -8%; } }
+  @media screen and (min-width: 302px) and (max-width: 321px) {
+    #contact ul {
+      margin-left: 0%; } }
+  @media screen and (min-width: 322px) and (max-width: 401px) {
+    #contact ul {
+      margin-left: 7%; } }
+  @media screen and (min-width: 402px) and (max-width: 450px) {
+    #contact ul {
+      margin-left: 15%; } }
+  @media screen and (min-width: 451px) and (max-width: 480px) {
+    #contact ul {
+      margin-left: 19%; } }
+  @media screen and (min-width: 481px) and (max-width: 640px) {
+    #contact ul {
+      margin-left: 20%; } }
+  @media screen and (min-width: 641px) and (max-width: 799px) {
+    #contact ul {
+      margin-left: 28%; } }
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    #contact ul {
+      padding-left: 0; } }
+  #contact ul li {
+    font-size: 15px;
+    color: #007DC5;
+    list-style: none;
+    padding-top: 0px;
+    height: 50px; }
+  #contact ul #phone_icon {
+    background-image: url(../images/phone_icon.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-y: 10px;
+    background-position-x: 28px; }
+  #contact ul #email_icon {
+    background-image: url(../images/email_icon.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-y: 10px;
+    background-position-x: 25px; }
+  #contact ul #facebook_icon {
+    background-image: url(../images/facebook_icon.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-y: 6px;
+    background-position-x: 25px; }
+  #contact ul #blog {
+    background-image: url(../images/blog_icon.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-y: 14px;
+    background-position-x: 26px; }
+  #contact p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+    margin-left: 65px; }
+    @media screen and (min-width: 402px) and (max-width: 480px) {
+      #contact p {
+        background-position: 79% 41%;
+        background-size: 65%; } }
+    @media screen and (min-width: 481px) and (max-width: 640px) {
+      #contact p {
+        font-size: 15px; } }
+    @media screen and (min-width: 641px) and (max-width: 799px) {
+      #contact p {
+        font-size: 15px; } }
+    @media screen and (min-width: 800px) and (max-width: 900px) {
+      #contact p {
+        font-size: 15px; } }
+    @media screen and (min-width: 901px) and (max-width: 1024px) {
+      #contact p {
+        font-size: 15px; } }
+  #contact #name_surname {
+    margin-left: 65px;
+    font-size: 17px; }
+    @media screen and (min-width: 280px) and (max-width: 320px) {
+      #contact #name_surname {
+        font-size: 15px; } }
+    @media screen and (min-width: 321px) and (max-width: 402px) {
+      #contact #name_surname {
+        font-size: 15px;
+        margin-left: 26%; } }
+    @media screen and (min-width: 402px) and (max-width: 420px) {
+      #contact #name_surname {
+        font-size: 18px;
+        margin-left: 32%; } }
+    @media screen and (min-width: 421px) and (max-width: 480px) {
+      #contact #name_surname {
+        margin-left: 33%;
+        font-size: 18px; } }
+    @media screen and (min-width: 481px) and (max-width: 550px) {
+      #contact #name_surname {
+        margin-left: 33%; } }
+    @media screen and (min-width: 551px) and (max-width: 640px) {
+      #contact #name_surname {
+        margin-left: 32.5%;
+        font-size: 20px; } }
+    @media screen and (min-width: 641px) and (max-width: 799px) {
+      #contact #name_surname {
+        margin-left: 39%; } }
+    @media screen and (min-width: 800px) and (max-width: 831px) {
+      #contact #name_surname {
+        margin-left: 8%;
+        font-size: 18px; } }
+  #contact .logo {
+    background-image: url(../images/terapie_holistyczne_logo.png);
+    background-size: 180px 75px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100px; }
+    @media screen and (min-width: 800px) {
+      #contact .logo {
+        background-image: url(../images/terapie_holistyczne_logo.png);
+        background-size: 57%;
+        background-repeat: no-repeat;
+        background-position: 33%;
+        height: 101px;
+        width: 291px; } }
+
+footer {
+  background-image: url(../images/background_footer.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: -95px;
+  height: 86px;
+  box-sizing: border-box; }
+  @media screen and (min-width: 319px) and (max-width: 400px) {
+    footer {
+      margin-top: -95px;
+      height: 110px; } }
+  @media screen and (min-width: 401px) and (max-width: 500px) {
+    footer {
+      margin-top: -95px;
+      height: 140px; } }
+  @media screen and (min-width: 501px) and (max-width: 600px) {
+    footer {
+      margin-top: -95px;
+      height: 170px; } }
+  @media screen and (min-width: 601px) and (max-width: 700px) {
+    footer {
+      margin-top: -95px;
+      height: 190px; } }
+  @media screen and (min-width: 701px) and (max-width: 799px) {
+    footer {
+      margin-top: -95px;
+      height: 190px; } }
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    footer {
+      background-image: url(../images/background_grey_up.png);
+      height: 126px;
+      background-repeat: no-repeat;
+      background-size: 100%; } }
+  @media screen and (min-width: 901px) and (max-width: 1024px) {
+    footer {
+      background-image: url(../images/background_grey_up.png);
+      height: 142px;
+      background-repeat: no-repeat;
+      background-size: 100%; } }
+  @media screen and (min-width: 1025px) and (max-width: 1100px) {
+    footer {
+      background-image: url(../images/background_grey_up.png);
+      height: 142px;
+      background-repeat: no-repeat;
+      background-size: 100%; } }
+  @media screen and (min-width: 1101px) and (max-width: 1200px) {
+    footer {
+      background-image: url(../images/background_grey_up.png);
+      height: 152px;
+      background-repeat: no-repeat;
+      background-size: 100%; } }
+  @media screen and (min-width: 1201px) and (max-width: 1366px) {
+    footer {
+      background-image: url(../images/background_grey_up.png);
+      height: 200px;
+      background-repeat: no-repeat;
+      background-size: 100%; } }
+  @media screen and (min-width: 1366px) {
+    footer {
+      background-image: url(../images/background_grey_up.png);
+      height: 220px;
+      background-repeat: no-repeat;
+      background-size: 100%; } }
+  @media screen and (min-width: 1900px) {
+    footer {
+      height: 253px; } }
+  footer #background_footer_down {
+    /*background-color: $grey;
+    height: 14px;
+    padding-bottom: 0px;*/
+    margin-top: 21px; }
+    @media screen and (min-width: 800px) {
+      footer #background_footer_down {
+        display: none; } }
+  footer p {
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+    @media screen and (min-width: 290px) and (max-width: 400px) {
+      footer p {
+        padding-top: 20%; } }
+    @media screen and (min-width: 401px) and (max-width: 500px) {
+      footer p {
+        padding-top: 25%; } }
+    @media screen and (min-width: 501px) and (max-width: 600px) {
+      footer p {
+        padding-top: 25%; } }
+    @media screen and (min-width: 601px) and (max-width: 799px) {
+      footer p {
+        padding-top: 22%; } }
+    @media screen and (min-width: 800px) and (max-width: 900px) {
+      footer p {
+        text-align: left;
+        padding-top: 11%;
+        margin-left: 25px; } }
+    @media screen and (min-width: 901px) {
+      footer p {
+        text-align: left;
+        padding-top: 11%;
+        margin-left: 25px; } }
+    @media screen and (min-width: 800px) and (max-width: 900px) {
+      footer p {
+        padding-top: 12%;
+        text-align: left; } }
+    @media screen and (min-width: 1201px) and (max-width: 900px) {
+      footer p {
+        padding-top: 12%;
+        text-align: left; } }
+    @media screen and (min-width: 1367px) {
+      footer p {
+        padding-top: 12%;
+        text-align: left; } }
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    footer hr {
+      display: none; } }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  z-index: 99;
+  font-size: 20px;
+  border: 1px solidColor;
+  outline: none;
+  background-color: rgba(229, 229, 229, 0.65);
+  color: #fff;
+  cursor: pointer;
+  padding: 3px 7px 7px 7px;
+  border-radius: 50px; }
+
+#myBtn:hover {
+  background-color: rgba(226, 234, 241, 0.61);
+  border-radius: 50px; }
+
+.hide {
+  display: none; }
+  .hide .modal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4); }
+  .hide .modal-content {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    background-image: url(../images/silhouette-3087519_light.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position-x: left;
+    background-position-y: top; }
+    .hide .modal-content h2, .hide .modal-content h3 {
+      font-size: 14px;
+      color: #758036; }
+      @media screen and (min-width: 400px) {
+        .hide .modal-content h2, .hide .modal-content h3 {
+          font-size: 18px; } }
+    .hide .modal-content .text_notice .blue_color_text {
+      color: #007DC5; }
+    .hide .modal-content .text_notice p, .hide .modal-content .text_notice h3 {
+      text-align: center;
+      padding-left: 7%;
+      padding-right: 3%; }
+    .hide .modal-content .text_notice p {
+      font-size: 11px; }
+      @media screen and (min-width: 400px) {
+        .hide .modal-content .text_notice p {
+          font-size: 13px; } }
+    .hide .modal-content .text_notice h3 {
+      color: #758036; }
+    .hide .modal-content .text_notice .hidden_small {
+      display: none; }
+      @media screen and (min-width: 400px) {
+        .hide .modal-content .text_notice .hidden_small {
+          display: block; } }
+  .hide .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 25px;
+    font-weight: bold; }
+  .hide .close:hover,
+  .hide .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer; }
+
+#reviews {
+  position: relative;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 30px;
+  height: 358px;
+  text-align: center; }
+  @media screen and (min-width: 319px) {
+    #reviews {
+      height: 311px; } }
+  @media screen and (min-width: 430px) {
+    #reviews {
+      height: 200px; } }
+  @media screen and (min-width: 480px) {
+    #reviews {
+      height: 180px; } }
+  @media screen and (min-width: 700px) {
+    #reviews {
+      margin-right: 75px; } }
+  @media screen and (min-width: 1000px) {
+    #reviews {
+      margin-left: 50px;
+      margin-right: 140px;
+      margin-top: 10px;
+      font-size: 17px; } }
+
+.fadeElement {
+  position: absolute; }
+
+.cookiepolicy {
+  background: #efefef;
+  bottom: 0;
+  font: 14px Arial, Helvetica, sans-serif;
+  left: 0;
+  padding: 15px 50px;
+  position: fixed;
+  right: 0;
+  text-align: center; }
+
+.cookiepolicy .button {
+  background: #444;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 5px 10px; }
+
+/*# sourceMappingURL=style.css.map */

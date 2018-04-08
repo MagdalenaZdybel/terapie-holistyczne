@@ -1,0 +1,29 @@
+@mixin margin_auto {
+    margin: {
+        left: 100px;
+        right: 100px;
+    }
+} 
+/*@mixin screenM ($width, $height){
+    @media screen and (min-width: 321px) and (max-width: 479px)
+}
+@mixin screenS {
+    @media screen and (min-width: 480px) and (max-width: 799px){
+        background-color: red;
+    }
+};
+@mixin screenL {
+    @media screen and (min-width: 800px) and (max-width: 1023px){
+        background-color: yellow; 
+    }
+}
+@mixin screenXL {
+    @media screen and (min-width: 1024px) and (max-width: 1199px){
+        background-color: grey;
+    }
+}
+@mixin screenXXL {
+    @media screen and (min-width: 1200px) and (max-width: 1366px){
+        background-color: green;
+    }
+}*/

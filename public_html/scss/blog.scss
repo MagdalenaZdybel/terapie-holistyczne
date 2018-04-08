@@ -1,0 +1,422 @@
+@import "_variables.scss";
+* {
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-size: $fontSize - 8px;
+    margin: 0 auto;
+    h2,h3
+        {
+            color: $navyBlue;
+            font-size: $fontSizeH2 - 4px;
+            font-weight: 500;
+            text-align: center;
+            padding-top: 15px;
+        }
+    a {
+        text-decoration: none;
+        color: #fff;
+    } 
+    .title{
+        text-align: center;
+        p{
+            color: #007DC5;
+            font-weight: 400;
+            font-size: 23px;
+            padding-left: 7px;
+            text-align: center;
+        }
+        @media only screen and (min-width: 600px){
+            float: center;
+        }
+        @media only screen and (min-width: 799px){
+            height: 100px;
+            margin: 0;
+            float: center;
+        }
+    }    
+.logo{
+    background-image: url(../images/terapie_holistyczne_logo.png);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 193px;
+        @media only screen and (min-width: 772px){
+        background-position: center center;
+    }
+        @media only screen and (min-width: 773px){
+            background-image: url(../images/terapie_holistyczne_logo.png);
+            height: 100px;
+            margin: 0 0 0 10px;
+            background-repeat: no-repeat;
+            background-position: left center;
+        }
+}
+    .holdfast_nav{
+            .main_nav_wrapper {
+                position: fixed;
+                background-color: $navyBlue;
+                width: 100%;
+                max-height: 100%;
+                overflow: scroll;
+            }
+            #main_nav button {
+                background: none;
+                color: #fff;
+                border: none;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                }
+            #main_nav {
+                color: #fff;
+                background-color: $navyBlue;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 0;
+                padding-right: 0;
+                text-align: center;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            #main_menu {
+                margin: 0;
+                padding: 0px;
+                width: 100%;
+                list-style: none;
+                margin: 10px 0 0 0;
+                display: none;
+                font-size: 17px;
+            }
+            #main_menu ul {
+                padding: 10px;
+
+            }
+            #main_menu li {
+                flex-grow: 1;
+                padding: 5px;
+                list-style: none;
+            }
+            ul#main_menu li a{
+            flex-grow: 1;
+        }
+        @media only screen and (min-width: 772px){
+        display: none;
+        }
+    }
+    .topnav{
+    overflow: hidden;
+    float: right;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #c8c8c7;
+    text-align: none;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.active{
+    background-color: #c8c8c7;
+    color: #fff;
+}
+.topnav .icon{
+    display: none;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn{
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: #c8c8c7;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+    .big_nav_bars{
+        @media only screen and (max-width: 772px){
+            display: none;
+        }
+        @media only screen and (max-width: 773px){
+            background-color: #007DC5;
+            margin-bottom: 21px;
+            text-align: center;
+            color: #fff;
+            font-family: Dosis;
+            float: right
+            }
+    }
+    
+.contents{
+    background-image: url(../images/silhouette-3087519_light.png);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: 80%;
+    background-position-x: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5;
+    padding-left: 10%;
+    @media only screen and (min-width: 500px){
+        padding-left: 15%;
+        padding-right: 15%;
+        background-size: 90%;
+    }
+    @media only screen and (min-width: 635px){
+        padding-left: 15%;
+        padding-right: 15%;
+        background-size: 90%;
+    }
+    @media only screen and (min-width: 670px){
+        padding-left: 15%;
+        padding-right: 15%;
+        background-size: 90%;
+    }
+    @media only screen and (min-width: 720px){
+        padding-left: 15%;
+        padding-right: 15%;
+        background-size: 90%;
+    }
+    @media only screen and (min-width: 799px){
+        padding-left: 15%;
+        padding-right: 15%;
+        background-size: 100%;
+    }
+    @media only screen and (min-width: 800px){
+        background-image: url(../images/silhouette-3087519.png);
+        background-position-x: left;
+        background-size: 38%;
+        padding-left: 100px;
+        padding-right: 10px;
+    }
+    @media only screen and (min-width: 865px){
+        background-position-x: left;
+        background-size: 37%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    @media only screen and (min-width: 900px){
+        background-size: 32%;
+        padding-left: 100px;
+        padding-right: 10px;
+    }
+    @media only screen and (min-width: 970px){
+        background-size: 37%;
+        padding-left: 100px;
+        padding-right: 10px;
+    }
+    @media only screen and (min-width: 1002px){
+        background-size: 35%;
+        padding-left: 100px;
+        padding-right: 10px;
+        background-position-x: 8%;
+    }
+    @media only screen and (min-width: 1038px){
+        background-size: 35%;
+        padding-left: 90px;
+        padding-right: 20px;
+        background-position-x: 8%;
+    }
+    @media only screen and (min-width: 1137px){
+        background-size:32%;
+        padding-left: 90px;
+        padding-right: 20px;
+        background-position-x: 8%;
+    }
+    @media only screen and (min-width: 1244px){
+        background-size: 30%;
+        padding-left: 90px;
+        padding-right: 20px;
+        background-position-x: 8%;
+    }
+    @media screen and (min-width: $max-width_site + 1px){
+        background-size: 24%;
+        background-position-x: 8%;
+    }
+    .left_clog_the_hole{
+        @media only screen and (max-width: 799px){
+            display: none;
+        }
+        @media only screen and (min-width: 800px){
+            width: 30%;
+            float: left;
+           /* background-image: url(../images/20151213-DSC_3537.jpg);
+            background-repeat: no-repeat;
+            width: 163px;
+            height: 103px;
+            box-shadow: 5px 5px 10px;
+            background-position: center center;*/
+            margin-top: 45px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .register {
+        color: black;
+        width: 70%;
+        float: right;
+        @media only screen and (max-width: 800px){
+            width: 100%;
+        }
+        .registry{
+            background-color: rgba(238,238,238,0.8);
+            background: rgba(238,238,238,0.8);
+            color: rgba(238,238,238,0.8);
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+                span{
+                    color: black;
+                }
+        h3{
+            text-align: left;
+        }
+        .date {
+            width: 95px;
+            float: right;
+            color: black;
+        }
+        .foto{
+            width: 30%;
+            
+            img{
+            width: 170px;
+            box-shadow: 5px 5px 10px;
+            float: left;
+            margin: 8px;
+            @media only screen and (max-width: 480px){
+                display: none;
+            }
+            }
+        }
+        .expand{
+            color: black;
+        }
+        }
+    }
+}/*zamkniecie contents*/
+.clear{
+    clear: both;
+}
+footer {
+    background-color: $grey;
+    height: 100%;
+   
+    ul{
+        @media only screen and (min-width: 599px){
+        display: none;
+        }
+        list-style: none;
+        color: black;
+        font-size: $fontSize - 8px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        text-align: left;
+        padding-left: 0;
+        
+        hr{
+        background-color: #fff;
+        padding-top: 1px;
+        } 
+        
+        li{
+            padding-left: 10%;
+        }
+        p{
+            color: $navyBlue;
+            font-weight: 400;
+        }
+    }
+.contact_footer{
+
+    @media only screen and (max-width: 600px){
+        display: none;
+    }
+   /* @media only screen and (max-width: 420px){
+        font-size: 12px;
+    }*/
+    @media only screen and (max-width: 635px){
+        text-align: center;
+        font-size: 13px;
+        line-height: 1;
+    }
+        display: flex;
+        justify-content: space-evenly;
+        text-align: left;
+        margin: 0 auto;
+        max-width: 500px;
+        padding-top: 14px;
+            p{
+                color: black;
+                margin: 0;
+                font-weight: 400;
+                padding-bottom: 20px;
+            }
+            span{
+                color: $navyBlue;
+                font-weight: 500;
+                padding-bottom: 20px;
+            }
+}    
+}
+
+}
