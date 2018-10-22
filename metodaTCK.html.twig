@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2935744-14"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-2935744-14');
+        </script>
+        <title>Terapie holistyczne Gabriela Wachowiak</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="fonts_albertus/AlbertusMedium_Regular.woff" />
+        <script src="js/prefixfree.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css">
+        <link href="css/metodaTCK_style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo"><a href="/"></a></div>
+            <div class="header-right">
+                <a class="active" href="/">Home</a>
+                <a href="/metodaZD">Metoda ZD</a>
+                <a href="/terapiaPolarity">Terapia POLARITY</a>
+                <a href="/masaz">Masaż</a>
+                <a href="/dwupunkt">Dwupunkt</a>
+                {% if app.user %}
+                    <a href="/blog/index">Dodaj nowy wpis</a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="contents">
+            <div class="description">
+                <h2>Biodynamiczna terapia czaszkowo-krzyżowa</h2>
+                <ul>
+                    <li>Jest to metoda konwencjonalna, zatwierdzona przez NFZ.</li>
+                    <li>To naturalna, delikatna forma terapii manualnej.</li>
+                    <li>Jest bezpieczna i nieinwazyjna.</li>
+                    <li>Wywodzi się z osteopatii.</li>
+                </ul>
+                <span>Wykorzystuje fakt, że wszystkie nieprawidłowe napięcia w 
+                    naszym organizmie zaburzają pulsowanie płynu mózgowo-rdzeniowego, 
+                    który odpowiada za ruch kości czaszki i kości krzyżowej.<br><br>
+                    Terapeuta odczytuje i interpretuje te zaburzenia zgodnie z tym 
+                    co organizm chce przekazać.<br><br>
+                    Wszystkie fakty jakie zachodzą podczas praktycznego wykonania 
+                    zabiegu mają wytłumaczenie naukowe zarówno na poziomie podstawowej 
+                    jak i kwantowej fizyki.<br><br>
+                
+                </span>
+            </div>
+            <div class="effect">
+                <h3>PRZEPIEG TERAPII</h3>
+                <span>
+                    Osoba przyjmująca terapię leży komfortowo na plecach otulona kocem.<br><br>
+                    
+                   Terapeuta przez delikatny dotyk i stymulację ruchową w obrębie czaszki, 
+                   klatki piersiowej, przepony, miednicy, kości krzyżowej i stóp ustala 
+                   nieprawidłowości w funkcjonowaniu ciała a następnie przywraca „pierwotne 
+                   oddychanie” w miejscach zablokowanych.<br><br>
+                    Osoba przyjmująca terapię zazwyczaj jest w głębokim relaksie, często 
+                    też zapada w krótki sen.<br><br>
+                    Czasem terapii towarzyszą burzliwe procesy, które tłumaczy się głębokim 
+                    rozluźnianiem systemu powięziowego i układu nerwowego.<br><br>
+                    Każdy zabieg zazwyczaj trwa od 60 -90 min a energia oddziałuje na 
+                    organizm jeszcze przez 2 - 4 dni.
+                </span>
+            </div>
+        </div>
+        <footer>
+           <ul>
+               <hr/>
+               <li>Kontakt: Gabriela Wachowiak</li>
+               <li><p id="hidden" onclick="myFunction()">508 pokaż numer</p></li>
+                <li><a class="email_adress" href="mailto:gabriela.wachowiak@gmail.com"><p>gabriela.wachowiak(at)gmail.com</p></a></li>
+            </ul>
+            <div class="contact_footer">
+                <hr>
+                <p>Kontakt: </p><span>Gabriela Wachowiak</span> 
+                <p>tel. </p><span id="hiddenMore" onclick="myFunctionMore()"> 508 pokaż numer</span>
+                <p>e-mail: </p>
+                <a class="email_adress" href="mailto:gabriela.wachowiak@gmail.com"><span>gabriela.wachowiak(at)gmail.com</span></a>
+            </div>
+        </footer>
+        <script>
+        function myFunction() {
+            document.getElementById("hidden").innerHTML = "508 722 384";
+        }  
+        function myFunctionMore() {
+            document.getElementById("hiddenMore").innerHTML = "508 722 384";
+        }
+            function toggle(elementId) {
+                
+                var element = document.getElementById(elementId);
+                
+                if (getComputedStyle(element).display === 'none') {
+                   element.style.display = 'block';
+                } else {
+                    element.style.display = 'none';
+                }
+            }
+            
+            /*console.log(getComputedStyle(document.getElementById('main_menu')).display);*/
+            
+        </script>
+
+        <script src="js/script.js"></script>
+    </body>
+    
+</html>

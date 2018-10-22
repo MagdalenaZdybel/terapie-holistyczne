@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2935744-14"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-2935744-14');
+        </script>
+        <title>Blog - Terapie holistyczne Gabriela Wachowiak</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="fonts_albertus/AlbertusMedium_Regular.woff" />
+        <script src="js/prefixfree.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css">
+        <link href="css/dyplomy.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo"><a href="/"></a></div>
+            <div class="header-right">
+                <a class="active" href="/">Home</a>
+                <a href="blog">blog</a>
+                {% if app.user %}
+                    <a href="/blog/index">Dodaj nowy wpis</a>
+                {% endif %}
+
+            </div>
+        </div>
+
+        <div class="clear"></div>
+        <div class="contents">
+            {% for certyficate in certyficates %}
+                {% if certyficate.isCartyficate %}
+                    <div class="foto"><img src="{{ asset('images/' ~ certyficate.file) }}" alt=""/></div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <footer>
+           <ul>
+               <hr/>
+               <li>Kontakt: Gabriela Wachowiak</li>
+               <li><p id="hidden" onclick="myFunction()">508 pokaż numer</p></li>
+                <li><a class="email_adress" href="mailto:gabriela.wachowiak@gmail.com"><p>gabriela.wachowiak(at)gmail.com</p></a></li>
+            </ul>
+            <div class="contact_footer">
+                <hr>
+                <p>Kontakt: </p><span>Gabriela Wachowiak</span> 
+                <p>tel. </p><span id="hiddenMore" onclick="myFunctionMore()"> 508 pokaż numer</span>
+                <p>e-mail: </p>
+                <a class="email_adress" href="mailto:gabriela.wachowiak@gmail.com"><span>gabriela.wachowiak(at)gmail.com</span></a>
+            </div>
+        </footer>
+        <script>
+        function myFunction() {
+            document.getElementById("hidden").innerHTML = "508 722 384";
+        }  
+        function myFunctionMore() {
+            document.getElementById("hiddenMore").innerHTML = "508 722 384";
+        }
+            function toggle(elementId) {
+                
+                var element = document.getElementById(elementId);
+                
+                if (getComputedStyle(element).display === 'none') {
+                   element.style.display = 'block';
+                } else {
+                    element.style.display = 'none';
+                }
+            }
+            
+            /*console.log(getComputedStyle(document.getElementById('main_menu')).display);*/
+
+
+        </script>
+
+        <script src="js/script.js"></script>
+    </body>
+    
+</html>

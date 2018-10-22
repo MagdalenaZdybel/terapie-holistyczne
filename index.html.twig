@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2935744-14"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-2935744-14');
+        </script>
+        <title>Terapie-holistyczne Gabriela Wachowiak</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="terapia grupowa,metoda zdenko domancica,terapie naturalne,terapie holistyczne,metoda domancica,bioenergioterapia,metoda wg zdenko domancica" />
+        <meta name="description" content="Terapie holistyczne" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Terapie-holistyczne Gabriela Wachowiak" />
+        <meta property="og:url" content="http://terapie-holistyczne.com.pl" />
+        <meta property="og:image" content="http://terapie-holistyczne.com.pl/ogimage.jpg" />
+        <meta property="og:image:height" content="210" />
+        <meta property="og:image:width" content="241" />
+        <meta property="og:description" content="Strona z naturalnymi terapiami holistycznymi." />
+        <meta property="fb:app_id" content="2018033928443079" />
+        <link rel="icon" href="favicon.ico" type="image" />
+        <link href="fonts_albertus/AlbertusMedium_Regular.woff" />
+        <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+        <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+    
+    <div id="isNotVisitedSite" class="hide">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div id="foto_for_modal"></div>
+                <div class="close" id="close_btn">&times;</div>
+                    <div class="text_notice">
+			            {{ popupmessage.information|raw }}
+                    </div>
+            </div>
+        </div>
+    </div>  
+    
+        <div class="all_body">  
+        <header>
+            <div class="holdfats_left_header"></div>
+            <div class="holdfats_right_header">
+                <div class="logo"></div>
+                <div id="leaf_blue"></div> 
+                <div id="leaf_black"></div>
+                <div id="leaf_red"></div>
+                <div id="leaf_green"></div>
+                <nav id="mine_nav">
+                    <ul>
+                        <li><a href="#about_me">o mnie</a></li>
+                        <li><a href="#terapy">terapie</a></li>
+                        <li><a href="#gallery">galeria</a></li>
+                        <li><a href="#contact">kontakt</a></li>
+                        <li><a href="blog">blog</a></li>
+                        {% if app.user %}
+                            <li><a href="/blog/index">Dodaj nowy wpis</a></li>
+                        {% endif %}
+
+                    </ul>
+                </nav>
+            </div>    
+        </header>
+        <section id="about_me">
+            <div class="background_up"></div>
+                <div class="background_center">
+                    <div class="holdfats_right_side">
+                        <h2>Gabriela Wachowiak</h2>
+                        <span>Dyplomowany Naturopata, 
+                            Członek Polskiego Stowarzyszenia Terapeutów Metody Zdenko Domančića,<br> 
+                            Członek Polskiego Stowarzyszenia Terapii Polarity
+                        </span>
+                        <article>Jestem mamą bliźniaczek. Przedłużający się poród spowodował u dziewczynek 
+                            niedotlenienie mózgu. Aby wspomóc rehabilitację zrezygnowałam z pracy i zaczęłam 
+                            interesować się medycyną niekonwencjonalną, która stała się moim życiem i pasją … <br /><br />
+
+                            Posiadam wiedzę, umiejętności i doświadczenie by dobrać najbardziej odpowiednie techniki terapii. <br /><br />
+
+                            Dzięki tym terapiom pobudzone zostają uzdrawiające siły ludzkiego organizmu umożliwiając powrót do zdrowia i kreatywnego życia.
+                             <br /><br />
+                             Wszystkie metody, które stosuję należą do grupy terapii holistycznych, 
+                             a więc są bezpieczne i działają na wszystkich poziomach jednocześnie: fizycznym, umysłowym i sferze duchowej. <br /><br />
+                             
+                            Są to idealne rozwiązania będące uzupełnieniem dla medycyny akademickiej.
+                        </article>
+                        <p class="read_on">Przejdź do:</p>
+                        <h2 class="read_on"><a href="dyplomy">Dyplomy i Certyfikaty</a></h2>
+                    </div>  
+                    <div class="holdfats_left_side">
+                        <div class="foto_about_me">
+                            <div id="foto_portrait_up">
+                                <img src="images/foto_about_me.jpg" alt=""/>
+                            </div>
+                            <div id="foto_portrait_dunes">
+                                <img src="images/foto_about_me_3.jpg" alt=""/>
+                            </div>
+                            <div id="foto_portrait_contemplate">
+                                <img src="images/foto_about_me_2.jpg" alt=""/>
+                            </div>
+                        </div>
+
+                        <aside>    
+                            <div id="line_curve"></div>
+                            <h5>Opinie</h5>
+                            <div id="reviews">
+                            </div><!-- pole z opiniami -->
+                        </aside>
+                        <hr />
+                    </div>
+                </div> 
+            <div class="background_bottom"></div>
+        </section> <!-- close about me -->
+        
+        
+        <section id="terapy">
+            <div class="clog_the_hole"></div>
+            <div class="holdfast_left_therapy">
+                <article id="method_zdenko">
+                    <h3><a href="#">Metoda bioenergoterapii wg ZDENKO DOMANČIĆA</a></h3>
+                    <h5>DZIAŁANIE</h5>
+                    <span class="contents">Metodę tę można stosować we wspomagającym leczeniu 
+                        takich chorób jak: cukrzyca, astma, choroba Parkinsona, Alzheimer, artretyzm, 
+                        Hashimoto, żółtaczka typu C, nowotwory, bezpłodność, żylaki, choroby neurologiczne,
+                        rwa kulszowa, reumatoidalne zapalenie stawów, choroby krwi, kręgosłupa, serca, wątroby,
+                        nerek, osteoporoza, gangrena, depresja, zmęczenie, osłabiony układ odpornościowy i inne.
+                    </span>
+                    <p class="read_on"><a href="metodaZD">Czytaj dalej...</a></p>
+                </article>
+                <article id="method_zdenko_1">
+                    <h3><a href="#">Terapia czaszkowo krzyżowa</a></h3>
+                    <h5>DZIAŁANIE</h5>
+                    <span class="contents">Niektóre problemy, w których terapia może być pomocna: 
+                        bóle głowy, migreny, zawroty głowy, stres, nerwice, depresje, chroniczne 
+                        zmęczenie, dysleksja, bezsenność, nadpobudliwość, dziecięce porażenie mózgowe, 
+                        psychozy, autyzm, kłopoty z koncentracją, kłopoty ze wzrokiem, bóle kręgosłupa i 
+                        pleców, zapalenie korzonków, rwa kulszowa, skolioza, zespół napięcia przedmiesiączkowego,  
+                        urazy, traumy powypadkowe i poporodowe.
+                    </span>
+                    <p class="read_on"><a href="metodaTCK">Czytaj dalej...</a></p>
+                </article>
+            </div>
+            
+            
+            <div class="holdfast_right_therapy">
+                <article id="method_zdenko_2">
+                    <h3><a href="#">Terapia Polarity</a></h3>
+                    <h5>DZIAŁANIE</h5>
+                    <span class="contents">Terapia Polarity jest wskazana i skuteczna 
+                        przy: bólach stawów, kręgosłupa, napiętych mięśniach karku i barków, 
+                        bólach głowy, migrenach, nerwicach, depresji, rwie kulszowej, problemach 
+                        trawiennych, krążeniowych, zaburzeniach hormonalnych, słabym układzie 
+                        odpornościowym, niskim poziomie energii, zmęczeniu, osłabieniu, po urazach, 
+                        operacjach, przebytych chorobach i innych.
+                    </span>
+                    <p class="read_on"><a href="terapiaPolarity">Czytaj dalej...</a></p>
+                </article>
+                <article id="method_zdenko_3">
+                    <h3><a href="#">Mięśniowo powięziowe uwalnianie napięć </a></h3>
+                    <h5>DZIAŁANIE</h5>
+                    <span class="contents">Terapię mięśniowo powięziową z powodzeniem stosujemy m.in. 
+                        w: bólach kręgosłupa, bólach kończyn, zespołach bólowych tj. łokieć tenisisty, 
+                        zespół cieśni nadgarstka, sztywności mięśni, karku lub innych stawów, migrenach,
+                        szczękościsku, stanach pourazowych, skoliozach, bliznach.
+                    </span>
+                    <p class="read_on"><a href="masaz">Czytaj dalej...</a></p>
+                </article>
+                <article id="method_zdenko_4">
+                    <h3><a href="#">Dwupunkt</a></h3>
+                    <h5>DZIAŁANIE</h5>
+                    <span class="contents">Dzięki metodzie dwupunktowej można: 
+                        zmieniać niekorzystne dla siebie i innych wzorce, 
+                        łatwiej osiągać cele, uzdrawiać z chorób fizycznych 
+                        siebie i innych oraz zwierzęta, wpływać na poprawę swojego stanu 
+                        emocjonalnego, pomagać innym radzić sobie z ich problemami psychicznymi, 
+                        naprawiać relacje z bliskimi i relacje w związkach, 
+                        wpływać na stan swoich finansów, pozwala otworzyć się na nowe,
+                        wykorzystać cały potencjał oraz zaprojektować życie tak, 
+                        aby było najbliższe naszym prawdziwym pragnieniom i marzeniom.
+                    </span>
+                    <p class="read_on"><a href="dwupunkt">Czytaj dalej...</a></p>
+                </article>
+            </div>
+        </section> <!-- close terapy -->
+        
+        
+        <section id="gallery">
+            <div class="background_up"></div>
+                <div class="background_center">
+                    <div class="foto_gallery">
+                        <div class="foto_gallery_small">
+                            <img src="images/foto_gallery_single.jpg" alt="" />
+                        </div>
+                        <p class="read_on"><a href="galeria">Przejdź do galerii</a></p>
+                        <div class="all_foto_gallery">
+                            <div class="first_row">
+                                {% for image in images %}
+                                    {% if (image.column == 1 and image.isGallery and image.isActive) %}
+                                        <img src="{{ asset('images/' ~ image.file) }}" alt=""/>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                            <div style="clear:both"></div>
+                            <div class="second_row">
+                                {% for image in images %}
+                                    {% if (image.column == 2 and image.isGallery and image.isActive) %}
+                                        <img src="{{ asset('images/' ~ image.file) }}" alt=""/>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                            <div style="clear:both"></div>
+                            <div class="third_row">
+                                {% for image in images %}
+                                    {% if (image.column == 3 and image.isGallery and image.isActive) %}
+                                        <img src="{{ asset('images/' ~ image.file) }}" alt=""/>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            <div class="background_bottom"></div>
+            <hr /> 
+        </section> <!-- close gallery -->
+        
+        <section id="contact">
+            <div class="holdfast_left_contact"></div>
+            <div class="holdfast_right_contact">
+                <div class="logo"></div>
+                <p id="name_surname">Gabriela Wachowiak</p>
+                <ul>
+                    <li id="phone_icon"><p id="hidden" onclick="myFunction()">508 pokaż numer</p></li>
+                    <li id="email_icon"><a id="email_adress" href="mailto:gabriela.wachowiak@gmail.com"><p>gabriela.wachowiak(at)gmail.com</p></a></li>
+                    <li id="facebook_icon"><a href="https://www.facebook.com/pg/Terapie-Holistyczne-1476898575951099/about/?ref=page_internal"><p class="text-socialmedia-f">Terapie-holistyczne</p></a></li>
+                    <li id="blog"><a href="blog.html"><p>Terapie-holistyczne</p></a></li>
+                </ul>
+            </div>    
+        </section> 
+        <footer>  
+            <p>copyright © 2018, designe: motta.com.pl</p>
+            <div id="background_footer_down"></div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+    </body>
+    
+</html>
