@@ -1,18 +1,22 @@
 @import "_variables.scss";
+@font-face {
+font-family: 'Albertus Medium';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts_albertus/AlbertusMedium_Regular.woff');
+}
 * {
     box-sizing: border-box;
 }
 body
 {
-    font-family: 'Dosis', sans-serif;
-    font-weight: 400;
-    font-size: $fontSize - 8px;
+   font-family: 'Albertus Medium';
+    font-size: $fontSize - 10px;
     margin: 0 auto;
     h2,h3
         {
-            color: $navyBlue;
-            font-size: $fontSizeH2 - 4px;
-            font-weight: 500;
+            color: $color-font-pink;
+            font-size: $fontSizeH2;
             text-align: center;
             padding-top: 15px;
         }
@@ -23,8 +27,7 @@ body
     .title{
         text-align: center;
         p{
-            color: #007DC5;
-            font-weight: 400;
+            color: $color-font-pink;
             font-size: 23px;
             padding-left: 7px;
             text-align: center;
@@ -37,13 +40,14 @@ body
             margin: 0;
             float: center;
         }
-    }    
+    } 
+}
 .logo{
     background-image: url(../images/terapie_holistyczne_logo.png);
     height: 100px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 193px;
+    background-size: 74%;
         @media only screen and (min-width: 772px){
         background-position: center center;
     }
@@ -58,7 +62,7 @@ body
     .holdfast_nav{
             .main_nav_wrapper {
                 position: fixed;
-                background-color: $navyBlue;
+                background-color: #fff;
                 width: 100%;
                 max-height: 100%;
                 overflow: scroll;
@@ -73,7 +77,7 @@ body
                 }
             #main_nav {
                 color: #fff;
-                background-color: $navyBlue;
+                background-color: $background-color;
                 padding-top: 10px;
                 padding-bottom: 10px;
                 padding-left: 0;
@@ -194,20 +198,26 @@ body
 }
     .big_nav_bars{
         @media only screen and (max-width: 772px){
+            background-color: #fff;
+            margin-bottom: 21px;
+            text-align: center;
+            font-family: Dosis;
+            float: right;
             display: none;
+            }
         }
         @media only screen and (max-width: 773px){
-            background-color: #007DC5;
+            background-color: #fff;
             margin-bottom: 21px;
             text-align: center;
             color: #fff;
             font-family: Dosis;
-            float: right
+            float: right;
             }
-    }
+    
     
 .contents{
-    background-image: url(../images/silhouette-3087519_light.png);
+    background-image: url(../images/silhouette-2208079_1280_opacity.png);
     background-repeat: no-repeat;
     background-position-y: top;
     background-size: 80%;
@@ -242,7 +252,7 @@ body
         background-size: 100%;
     }
     @media only screen and (min-width: 800px){
-        background-image: url(../images/silhouette-3087519.png);
+        background-image: url(../images/silhouette-2208079_1280.png);
         background-position-x: left;
         background-size: 38%;
         padding-left: 100px;
@@ -299,12 +309,6 @@ body
         @media only screen and (min-width: 800px){
             width: 30%;
             float: left;
-           /* background-image: url(../images/20151213-DSC_3537.jpg);
-            background-repeat: no-repeat;
-            width: 163px;
-            height: 103px;
-            box-shadow: 5px 5px 10px;
-            background-position: center center;*/
             margin-top: 45px;
             margin-left: auto;
             margin-right: auto;
@@ -358,7 +362,6 @@ body
     clear: both;
 }
 footer {
-    background-color: $grey;
     height: 100%;
    
     ul{
@@ -382,8 +385,7 @@ footer {
             padding-left: 10%;
         }
         p{
-            color: $navyBlue;
-            font-weight: 400;
+            color: $color-font-pink;
         }
     }
 .contact_footer{
@@ -403,20 +405,17 @@ footer {
         justify-content: space-evenly;
         text-align: left;
         margin: 0 auto;
-        max-width: 500px;
+        max-width: 620px;
         padding-top: 14px;
             p{
                 color: black;
                 margin: 0;
-                font-weight: 400;
                 padding-bottom: 20px;
             }
             span{
-                color: $navyBlue;
-                font-weight: 500;
+                color: $color-font-pink;
                 padding-bottom: 20px;
             }
 }    
 }
 
-}

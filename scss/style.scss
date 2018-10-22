@@ -1,21 +1,26 @@
 @import "_variables.scss";
+@font-face {
+font-family: 'Albertus Medium';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts_albertus/AlbertusMedium_Regular.woff');
+}
 body
 {
-    font-family: 'Dosis', sans-serif;
-    font-weight: 500;
+    font-family: 'Albertus Medium';
+    font-weight: normal;
     font-size: $fontSize;
     margin: 0 auto;
     h2
         {
-            color: $navyBlue;
+            color: $color-font-pink;
             font-size: $fontSizeH2;
-            font-weight: 500;
             text-align: center;
         }
     a 
         {
         text-decoration: none;
-        color: $navyBlue;
+        color: $color-font-pink;
     } 
         hr  
     {
@@ -45,6 +50,7 @@ header
             height: 613px;
             margin-bottom: -167px;
             background-position: 75%;
+            background-size: 50%;
         }
         @media screen and (min-width: 402px) and (max-width: $max_widthM) {
             height: 599px;
@@ -186,11 +192,11 @@ header
     }
     .logo{
         background-image: url(../images/terapie_holistyczne_logo.png);
-        background-size: 198px;
+        background-size: 275px;
         background-repeat: no-repeat;
         background-position: center center;
         height: 73px;
-        padding-top: 33px;
+        padding-top: 102px;
         @media screen and (min-width: 800px) and (max-width: $max-width_site){
         margin-top: 124px;
         }
@@ -230,12 +236,12 @@ header
             text-align: center;
             a {
                 text-decoration: none;
-                color:$black;
+                color:$color-font-green;
             }
         }
          ul LI:nth-child(2n+2) {
             a {
-            color: $navyBlue;
+            color: $color-font-pink;
             }
         } 
     }
@@ -282,84 +288,84 @@ header
             }
             @media screen and (min-width: $min_widhtS800) and (max-width: $max_widthS8){
                 background-image: url(../images/background_grey_up.png);
-                height: 138px;
+                height: 209px;
                 background-repeat: no-repeat;
                 background-size: 100%;
             }
             @media screen and (min-width: $min_widthXL1025) and (max-width: $min_width_XL_adapter){
                 background-image: url(../images/background_grey_up.png);
-                height: 151px;
+                height: 245px;
                 background-repeat: no-repeat;
                 background-size: 100%;
             }
             @media screen and (min-width: 1101px) and (max-width: 1200px){
                 background-image: url(../images/background_grey_up.png);
-                height: 145px;
+                height: 245px;
                 background-repeat: no-repeat;
                 background-size: 100%;
             }
             @media screen and (min-width: 1201px) and (max-width: 1269px){
                 background-image: url(../images/background_grey_up.png);
-                height: 161px;
+                height: 245px;
                 background-repeat: no-repeat;
                 background-size: 100%;
             }
             @media screen and (min-width: 1270px) and (max-width: $max-width_site){
                 background-image: url(../images/background_grey_up.png);
-                height: 174px;
+                height: 284px;
                 background-repeat: no-repeat;
                 background-size: 100%;
             }
             @media screen and (min-width: 1367px){
                 background-image: url(../images/background_grey_up.png);
-                height: 189px;
+                height: 284px;
                 background-repeat: no-repeat;
                 background-size: 100%;
             }
             @media screen and (min-width: 1450px){
                 background-image: url(../images/background_grey_up.png);
-                height: 200px;
+                height: 350px;
                 background-repeat: no-repeat;
                 background-size: 100%;
             }
             @media screen and (min-width: 1512px) {
-                height: 200px;
+                height: 350px;
             }
             @media screen and (min-width: 1643px) {
                 background-image: url(../images/background_grey_up.png);
-                height: 210px;
+                height: 350px;
                 background-repeat: no-repeat;
                 background-size: 100%;
             }
             @media screen and (min-width: 1740px){
-                height: 230px;
+                height: 348px;
             }
             @media screen and (min-width: 1760px){
-                height: 240px;
+                height: 358px;
             }
             @media screen and (min-width: 1794px){
-                height: 250px;
+                height: 358px;
             }
             @media screen and (min-width: 1830px){
-                height: 254px;
+                height: 358px;
             }
             @media screen and (min-width: 1900px + 1) {
-                height: 261px;
+                height: 380px;
             }
     }
     .background_center
     {
-        background-color: #c8c8c7;
+        background-color: transparent;
         padding-bottom: 10px;
             @media screen and (min-width: $min_widhtS800) and (max-width: 872px){
                 width: 100%;
                 margin-top: -4%;
                 padding-top: 0;
-                height: 613px;
+                height: 765px;
             }
             @media screen and (min-width: 873px) and (max-width: $min_widhtS8_adapter){
                 width: 100%;
-                height: 600px;
+                height: 815px;
                 padding-top: 24px;
                 margin-top: -3%;
             }
@@ -367,43 +373,42 @@ header
                 width: 100%;
                 margin-top: -2%;
                 padding-top: 9px;
-                height: 620px;    
+                height: 731px;    
             }
             @media screen and (min-width: 988px) and (max-width: $max_widthS8){
                 width: 100%;
                 margin-top: -1%;
                 padding-top: 24px;
-                height: 556px;
+                height: 731px;
             }
             @media screen and (min-width: $min_widthXL1025) and (max-width: $min_width_XL_adapter){
                 width: 100%;
                 margin-top: -12px;
                 padding-top: 24px;
-                height: 662px;
+                height: 836px;
             }
             @media screen and (min-width: 1101px) and (max-width: $max_widtXL024){
                 width: 100%;
                /* margin-top: -1%;*/
                 padding-top: 24px;
-                height: 690px;
+                height: 780px;
             }
             @media screen and (min-width: 1201px) and (max-width: 1269px){
                 width: 100%;
                 /*margin-top: -1%;*/
                 padding-top: 24px;
-                height: 551px;
+                height: 692px;
             }
             @media screen and (min-width: 1270px) and (max-width: $max-width_site){
                 width: 100%;
                 padding-top: 24px;
-                height: 551px;
+                height: 789px;
                 margin-top: -2px;
             }
             @media screen and (min-width: $max-width_site + 1){
                 width: 100%;
-                padding-top: 24px;
-                height: 551px;
-                margin-top: -3px;
+                height: 750px;
+                padding-bottom: 30px;
             }
             .holdfats_right_side{
                 @media screen and (min-width: $min_widhtS800) and (max-width: $min_widhtS8_adapter) {
@@ -446,7 +451,7 @@ header
         {
             font-size: 16px;
             font-weight: 700;
-            color: $navyBlue;
+            color: $color-font-green;
             text-align: center;
             padding-left: 5px;
             padding-right: 5px;
@@ -539,7 +544,7 @@ header
                 .read_on
                 {
                     font-size: $fontSize - 6px;
-                    color: $navyBlue;
+                    color: $color-font-green;
                     font-weight: 700;
                     padding-bottom: 1px;
                     padding-top: 1px;
@@ -585,7 +590,7 @@ header
             padding-left: 5px;
             padding-right: 5px;
             text-align: center;
-            color: $navyBlue;
+            color: $color-font-green;
             font-weight: 500;
             font-size: 16px;
             padding-top: 15px;
@@ -663,23 +668,23 @@ header
                 float: left;}
         }    
         .foto_about_me {
-            height:  145px;
+            height:  242px;
             margin: 0 5% 0 5%;
                 @media screen and (min-width: 481px) and (max-width: $min_widthS_adapter) {
                     height: 201px;
                     margin: 0 7% 0 7%;
                 }
                 @media screen and (min-width: 641px) and (max-width: $max_widthS){
-                    height: 231px;
+                    height: 393px;
                 }
                 @media screen and (min-width: $min_widhtS800) and (max-width: $max_widthS8){
-                    height: 381px;
+                    height: 504px;
                 }
                 @media screen and (min-width: $min_widthXL1025) and (max-width: $max-width_site){
-                    height: 390px;
+                    height: 504px;
                 }
                 @media screen and (min-width:  $max-width_site + 1){
-                    height: 390px;
+                    height: 504px;
                 }
             #foto_portrait_up {
                 img {
@@ -706,20 +711,20 @@ header
                             float: left;  
                         }
                         @media screen and (min-width: 641px) and (max-width: $max_widthS) {
-                            width: 120px;
+                            width: 250px;
                             float: left;
                             display: block;
                             margin-left: 32px;
                             margin-right: 10%;
                         }
                         @media screen and (min-width: $min_widthXL1025) and (max-width: $max-width_site){
-                            width: 185px;
+                            width: 250px;
                             float: none;
                             display: block;
                             margin: 0 auto;
                         }
                         @media screen and (min-width: $max-width_site + 1){
-                            width: 185px;
+                            width: 250px;
                             float: none;
                             display: block;
                             margin: 0 auto;
@@ -734,7 +739,6 @@ header
                         margin: 0 auto;
                         margin-bottom: 0px;
                         margin-top: 25px;
-                        display: none;
 
                             @media screen and (min-width: 481px) and (max-width: $min_widthS_adapter) {
                                 width: 185px;
@@ -742,20 +746,20 @@ header
                                 display: block;
                             }
                             @media screen and (min-width: 641px) and (max-width: $max_widthS) {
-                                width: 120px;
-                                float: left;
-                                margin-right: 7%;
+                                width: 250px;
+                                float: right;
+                                /*margin-right: 7%;*/
                                 display: block;
                                 margin-left: 2%;
                             }
                             @media screen and (min-width: $min_widthXL1025) and (max-width: $max-width_site){
-                                width: 185px;
+                                width: 250px;
                                 float: none;
                                 margin: 35px auto;
                                 display: block;
                             }
                             @media screen and (min-width: $max-width_site + 1){
-                                width: 185px;
+                                width: 250px;
                                 float: none;
                                 margin: 35px auto;
                                 display: block;
@@ -800,27 +804,27 @@ header
                             @media screen and (min-width: 641px) and (max-width: $max_widthS) {
                                 width: 120px;
                                 float: left;
-                                display: block;
+                                display: none;
                                 margin-right: 6%;
                                 margin-left: 6%;
                             }
                             @media screen and (min-width: $min_widthXL1025) and (max-width: $min_width_XL_adapter){
-                                width: 185px;
+                                width: 250px;
                                 float: none;
                                 margin: 35px auto;
                             }
                             @media screen and (min-width: 1101px) and (max-width: $max_widtXL024){
-                                width: 185px;
+                                width: 250px;
                                 float: none;
                                 margin: 35px auto;
                             }
                             @media screen and (min-width: 1201px) and (max-width: $max-width_site){
-                                width: 185px;
+                                width: 250px;
                                 float: none;
                                 margin: 35px auto;
                             }
                             @media screen and (min-width: $max-width_site + 1px){
-                                width: 185px;
+                                width: 250px;
                                 float: none;
                                 margin: 35px auto;
                                 display: block;
@@ -854,7 +858,7 @@ header
             height: 77px;
         }
         aside {
-            color: $white;
+            color: $background-color;
             @media screen and (min-width: $min_widthXL1025) and (max-width: $max-width_site){
                 margin-top: 7%;
             }
@@ -919,26 +923,26 @@ header
         display: none;
         @media screen and (min-width: $min_widhtS800){
             background-image: url(../images/background_grey_down.png);
-            height: 209px;
+            height: 257px;
             background-repeat: no-repeat;
             background-size: 100%;
             display: block;
         }
         @media screen and (min-width: 1350px){
             background-image: url(../images/background_grey_down.png);
-            height: 215px;
+            height: 330px;
             background-repeat: no-repeat;
             background-size: 100%;
             display: block;
         }
         @media screen and (min-width: 1490px){
-            height: 240px;
+            height: 340px;
         }
         @media screen and (min-width: 1686px){
-            height: 260px;
+            height: 340px;
         }
         @media screen and (min-width: 1686px +1 ){
-            height: 280px;
+            height: 340px;
         }
     }
 }
@@ -1016,21 +1020,21 @@ header
             background-size: 26%;
         }
         @media screen and (min-width: 1637px){
-            height: 800px;
+            height: 875px;
             background-image: url(../images/silhouette-3087519.png);
             background-position-x: 15%;
             background-position-y: 105%;
             background-size: 22%;
         }
         @media screen and (min-width: 1900px){
-            height: 800px;
+            height: 875px;
             background-image: url(../images/silhouette-3087519.png);
             background-position-x: 15%;
             background-position-y: 105%;
             background-size: 22%;
         }
         @media screen and (min-width: 1901px + 150px){
-            height: 800px;
+            height: 875px;
             background-image: url(../images/silhouette-3087519.png);
             background-position-x: 15%;
             background-position-y: 105%;
@@ -1040,7 +1044,6 @@ header
     {
         h3
         {
-            font-family: $fontWeightExtraBold;
             font-size: $fontSizeH2 - 2px;
             padding-top: 5px;
             @media screen and (min-width: $min_widhtS800) and (max-width: $max-width_site){
@@ -1052,14 +1055,12 @@ header
         }
         h5
         {
-            font-family: $fontWeightRegular;
             font-size: $fontSize - 8px;
             margin-top: 5px;
             margin-bottom: 5px;
         }
         .contents
         {
-            font-family: $fontWeightRegular;
             font-size: $fontSize - 9px;
             @media screen and (min-width: 481px) and (max-width: $min_widthS_adapter) {
                 text-align: justify;
@@ -1166,10 +1167,10 @@ header
             }
         }
         #method_zdenko_1 {
-            color: $navyBlue;
+            color: $color-font-green;
             line-height: 1;
             a{
-                color: $navyBlue;
+                color: $color-font-green;
             }
             @media screen and (min-width: $min_widhtS800) and (max-width: $min_widhtS8_adapter){
                 width: 90%;
@@ -1225,10 +1226,10 @@ header
             float: left;
         }
         #method_zdenko_2 {
-            color: $blue;
+            color: $color-font-green;
             line-height: 1;
             a{
-                color: $blue;
+                color: $color-font-green;
             }
             @media screen and (min-width: $min_widhtS800) and (max-width: $min_widhtS8_adapter){
                 width: 90%;
@@ -1341,10 +1342,10 @@ header
         padding-bottom: 25px;
         }
         @media screen and (min-width: 402px) and (max-width: 480px) {
-            height: auto;
+            height: 946px;
         }
         @media screen and (min-width: 481px) and (max-width: 512px) {
-            height: auto;
+            height: 946px;
         }
         @media screen and (min-width: 513px) and (max-width: 551px){
             height: auto;
@@ -1388,28 +1389,28 @@ header
         }
         @media screen and (min-width: 1201px) and (max-width: $max-width_site){
             height: auto;
-            margin-top: -3%;
+            margin-top: 0;
         }
         @media screen and (min-width: 1367px){
             height: auto;
-            margin-top: -3%;
+            margin-top: 0;
         }
         @media screen and (min-width: 1700px){
             height: auto;
-            margin-top: -8%;
+            margin-top: 0;
         }
         @media screen and (min-width: 1700px){
             height: auto;
-            margin-top: -8%;
+            margin-top: 0;
         }
         @media screen and (min-width: 1900px){
             height: auto;
-            margin-top: -8%;
+            margin-top: 0;
         }
     .background_up 
     {
         background-image: url(../images/background_grey_up_small_480.png);
-        height: 97px;
+        height: 126px;
         background-repeat: no-repeat;
         background-size: 100%;
         margin-bottom: -11px;
@@ -1425,65 +1426,65 @@ header
         }
         @media screen and (min-width: 641px) and (max-width: $max_widthS) {
             margin-top: -4%;
-            height: 170px;
+            height: 208px;
         }
         @media screen and (min-width: $min_widhtS800) and (max-width: $min_widhtS8_adapter){
             background-image: url(../images/background_grey_up.png);
-            height: 112px;
+            height: 187px;
             background-repeat: no-repeat;
             background-size: 100%;
         }
         @media screen and (min-width: 901px) and (max-width: 1050px){
             background-image: url(../images/background_grey_up.png);
-            height: 125px;
+            height: 189px;
             background-repeat: no-repeat;
             background-size: 100%;
         }
         @media screen and (min-width: 1050px) and (max-width: 1100px){
             background-image: url(../images/background_grey_up.png);
-            height: 143px;
+            height: 213px;
             background-repeat: no-repeat;
             background-size: 100%;
         }
         @media screen and (min-width: 1101px) and (max-width: $max_widtXL024){
             background-image: url(../images/background_grey_up.png);
-            height: 153px;
+            height: 240px;
             background-repeat: no-repeat;
             background-size: 100%; 
         }
         @media screen and (min-width: 1201px) and (max-width: $max-width_site){
             background-image: url(../images/background_grey_up.png);
-            height: 170px;
+            height: 260px;
             background-repeat: no-repeat;
             background-size: 100%; 
         }
         @media screen and (min-width: $max-width_site){
             background-image: url(../images/background_grey_up.png);
-            height: 167px;
+            height: 273px;
             background-repeat: no-repeat;
             background-size: 100%; 
         }
         @media screen and (min-width: 1400px){
-            height: 200px;
+            height: 289px;
         }
         @media screen and (min-width: 1500px){
-            height: 219px;
+            height: 308px;
         }
         @media screen and (min-width: 1600px){
-            height: 230px;
+            height: 330px;
         }
         @media screen and (min-width: 1700px){
-            height: 239px;
+            height: 362px;
         }
         @media screen and (min-width: 1800px){
-            height: 239px;
+            height: 370px;
         }
         @media screen and (min-width: 1900px){
-            height: 239px;
+            height: 370px;
         }
     }
     .background_center {
-        background-color: #c8c8c7;
+        background-color: transparent;
         padding-bottom: 10px;
             @media screen and (min-width: $min_widthM_adapter) and (max-width: $max_widthM) {
                 position: absolute;
@@ -1527,7 +1528,7 @@ header
         }
         .read_on
         {
-            color: $navyBlue;
+            color: $color-font-green;
             font-size: $fontSize - 9px;
             font-weight: $fontWeightBold;
             text-align: center;
@@ -1610,34 +1611,34 @@ header
         }
         @media screen and (min-width: 901px) and (max-width: 1100px){
             background-image: url(../images/background_grey_down.png);
-            height: 170px;
+            height: 224px;
             background-repeat: no-repeat;
             background-size: 100%;
             display: block;
         }
         @media screen and (min-width: 1101px) and (max-width: $max_widtXL024){
             background-image: url(../images/background_grey_down.png);
-            height: 170px;
+            height: 224px;
             background-repeat: no-repeat;
             background-size: 100%;
             display: block;
         }
         @media screen and (min-width: 1201px) and (max-width: $max-width_site){
             background-image: url(../images/background_grey_down.png);
-            height: 196px;
+            height: 345px;
             background-repeat: no-repeat;
             background-size: 100%;
             display: block;
         }
         @media screen and (min-width: $max-width_site){
             background-image: url(../images/background_grey_down.png);
-            height: 266px;
+            height: 345px;
             background-repeat: no-repeat;
             background-size: 100%;
             display: block;
         }
         @media screen and (min-width: 1900px){
-            height: 265px;
+            height: 362px;
         }
     }
 }
@@ -1781,12 +1782,15 @@ header
         li
         {
             font-size: 15px;
-            color: $navyBlue;
+            color: $color-font-pink;
             list-style: none;
             padding-top: 0px;
             height: 50px;
         }
         #phone_icon{
+            #hidden {
+                color: $color-font-pink;
+            }
             background-image: url(../images/phone_icon.png);
             background-repeat: no-repeat;
             background-size: 25px;
@@ -1794,11 +1798,17 @@ header
             background-position-x: 28px;
         }
         #email_icon {
+            #email_adress {
+                color: $color-font-pink;
+            }
                 background-image: url(../images/email_icon.png);
                 background-repeat: no-repeat;
                 background-size: 25px;
                 background-position-y: 10px;
                 background-position-x: 25px;
+        }
+        .text-socialmedia-f {
+            color: $color-font-pink;
         }
         #facebook_icon{
                 background-image: url(../images/facebook_icon.png);
@@ -1808,6 +1818,9 @@ header
                 background-position-x: 25px;
         }
         #blog{
+            p {
+                color: $color-font-pink;
+            }
             background-image: url(../images/blog_icon.png);
             background-repeat: no-repeat;
             background-size: 30px;
@@ -1841,6 +1854,7 @@ header
     #name_surname {
         margin-left: 65px;
         font-size: 17px;
+        color: $color-font-pink;
         @media screen and (min-width: 280px) and (max-width: 320px){
             font-size: 15px;
         }
@@ -1874,7 +1888,7 @@ header
     .logo
     {
         background-image: url(../images/terapie_holistyczne_logo.png);
-        background-size: 180px 75px;
+        background-size: 180px auto;
         background-repeat: no-repeat;
         background-position: center center;
         height: 100px;
@@ -1892,7 +1906,6 @@ footer {
     background-image: url(../images/background_footer.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: -95px;
     height: 86px;
     box-sizing: border-box;
         @media screen and (min-width: 319px) and (max-width: 400px){
@@ -1956,9 +1969,7 @@ footer {
         }
         
     #background_footer_down {
-        /*background-color: $grey;
-        height: 14px;
-        padding-bottom: 0px;*/
+        padding-bottom: 0px;
         margin-top: 21px;
         @media screen and (min-width: $min_widhtS800){
             display: none;
@@ -2028,6 +2039,7 @@ footer {
   cursor: pointer;
   padding: 3px 7px 7px 7px;
   border-radius: 50px;
+  font-family: 'Albertus Medium';
 }
 
 #myBtn:hover {
@@ -2038,6 +2050,7 @@ footer {
 .hide {
     display: none;
     .modal {
+        font-family: 'Albertus Medium'!important;
         position: fixed;
         z-index: 1;
         padding-top: 100px;
@@ -2051,20 +2064,22 @@ footer {
     }
 
     .modal-content {
+        font-family: 'Albertus Medium';
         background-color: #ffffff;
         margin: auto;
         padding: 20px;
         border: 1px solid #888;
         width: 80%;
-        background-image: url(../images/silhouette-3087519_light.png);
+        background-image: url(../images/silhouette-30875191_small_therapy.png);
         background-repeat: no-repeat;
         background-size: auto 100%;
         background-position-x: left;
         background-position-y: top;
 
         h2,h3 {
+            font-family: 'Albertus Medium';
             font-size: 14px;
-            color: $green;
+            color: $color-font-green;
             @media screen and (min-width: 400px){
                 font-size: 18px;
             }
@@ -2072,7 +2087,7 @@ footer {
         .text_notice {
 
             .blue_color_text{
-                color: $navyBlue;
+                color: $color-font-pink;
             }
             p, h3 {
                 text-align: center;
@@ -2145,7 +2160,7 @@ footer {
 .cookiepolicy {
  background: #efefef;
  bottom: 0;
- font: 14px Arial, Helvetica, sans-serif;
+ font-family: 'Albertus Medium';
  left: 0;
  padding: 15px 50px;
  position: fixed;
