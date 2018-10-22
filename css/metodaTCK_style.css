@@ -1,16 +1,21 @@
+@font-face {
+  font-family: 'Albertus Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts_albertus/AlbertusMedium_Regular.woff"); }
 * {
   box-sizing: border-box; }
 
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Albertus Medium';
   font-weight: 400;
   font-size: 14px;
   margin: 0 auto;
   /*zamkniecie contents*/ }
   body h2, body h3 {
-    color: #007DC5;
+    color: #79a12f;
+    font-family: 'Albertus Medium';
     font-size: 18px;
-    font-weight: 500;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px; }
@@ -23,7 +28,7 @@ body {
     padding: 20px 10px; }
   body .header a {
     float: left;
-    color: #c8c8c7;
+    color: #79a12f;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -31,14 +36,15 @@ body {
     line-height: 25x;
     border-radius: 4px; }
   body .header a:hover {
-    background-color: #ddd;
-    color: #007DC5; }
+    background-color: #c8c8c7;
+    color: #c20f87; }
   body .logo {
     background-image: url(../images/terapie_holistyczne_logo.png);
     height: 100px;
     width: 250px;
     background-repeat: no-repeat;
-    background-position: left center; }
+    background-position: center center;
+    background-size: 74%; }
   body .header-right {
     float: right; }
   @media screen and (max-width: 500px) {
@@ -49,7 +55,7 @@ body {
     body .header-right {
       float: none; } }
   body .contents {
-    background-image: url(../images/silhouette-3087519_light.png);
+    background-image: url(../images/silhouette-2208079_1280_opacity.png);
     background-repeat: no-repeat;
     background-position-y: bottom;
     background-size: auto 100%;
@@ -85,7 +91,7 @@ body {
         background-size: auto 100%; } }
     @media only screen and (min-width: 800px) {
       body .contents {
-        background-image: url(../images/silhouette-3087519.png);
+        background-image: url(../images/silhouette-2208079_1280.png);
         background-position-x: left;
         background-size: auto 100%;
         padding-left: 100px;
@@ -147,7 +153,6 @@ body {
     body .contents .effect {
       padding-bottom: 20px; }
   body footer {
-    background-color: #c8c8c7;
     height: 100%; }
     body footer ul {
       list-style: none;
@@ -166,8 +171,7 @@ body {
       body footer ul li {
         padding-left: 10%; }
       body footer ul p {
-        color: #007DC5;
-        font-weight: 400; }
+        color: #79a12f; }
     body footer .contact_footer {
       /* @media only screen and (max-width: 420px){
            font-size: 12px;
@@ -176,7 +180,7 @@ body {
       justify-content: space-evenly;
       text-align: left;
       margin: 0 auto;
-      max-width: 500px;
+      max-width: 620px;
       padding-top: 14px; }
       @media only screen and (max-width: 600px) {
         body footer .contact_footer {
@@ -189,11 +193,9 @@ body {
       body footer .contact_footer p {
         color: black;
         margin: 0;
-        font-weight: 400;
         padding-bottom: 20px; }
       body footer .contact_footer span {
-        color: #007DC5;
-        font-weight: 500;
+        color: #79a12f;
         padding-bottom: 20px; }
 
 /*# sourceMappingURL=metodaTCK_style.css.map */

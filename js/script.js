@@ -32,8 +32,7 @@ $(modalw).on('click', function () {
 
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
-    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-    var expires = "expires=" + d.toUTCString();
+    var expires;
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
@@ -56,7 +55,7 @@ function checkCookie() {
     isVisitedSite = getCookie("isVisitedSite");
 
     if (!isVisitedSite) {
-        setCookie("isVisitedSite", true, 2);
+        setCookie("isVisitedSite", true, -1);
         $("#isNotVisitedSite").show();
     } else {
         if (isVisitedSite) {
@@ -81,7 +80,7 @@ if (!isCookieDisplayed) {
     $('<span/>').html(options['info']).appendTo(wrapper);
     $('<a/>').addClass('button').html(options['close']).appendTo(wrapper)
             .on('click', function (e) {
-                setCookie("isCookieDisplayed", true, 2);
+                setCookie("isCookieDisplayed", true, -1);
                 e.preventDefault();
                 $(this).parents('.cookiepolicy').remove();
             });

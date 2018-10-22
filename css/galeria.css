@@ -1,28 +1,32 @@
+@font-face {
+  font-family: 'Albertus Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts_albertus/AlbertusMedium_Regular.woff"); }
 * {
   box-sizing: border-box; }
 
 body {
-  font-family: 'Dosis', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+  font-family: 'Albertus Medium';
+  font-size: 22px;
   margin: 0 auto;
   /*zamkniecie contents*/ }
   body h2, body h3 {
-    color: #007DC5;
-    font-size: 14px;
+    color: #79a12f;
     font-weight: 500;
     text-align: center;
     padding-top: 15px; }
   body a {
     text-decoration: none;
-    color: #fff; }
+    color: #fff;
+    margin-top: -9px; }
   body .header {
     overflow: hidden;
     background-color: #fff;
     padding: 20px 10px; }
   body .header a {
     float: left;
-    color: #c8c8c7;
+    color: #79a12f;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -30,14 +34,15 @@ body {
     line-height: 25x;
     border-radius: 4px; }
   body .header a:hover {
-    background-color: #ddd;
-    color: #007DC5; }
+    background-color: #c8c8c7;
+    color: #c20f87; }
   body .logo {
     background-image: url(../images/terapie_holistyczne_logo.png);
     height: 100px;
     width: 250px;
     background-repeat: no-repeat;
-    background-position: left center; }
+    background-position: center center;
+    background-size: 74%; }
   body .header-right {
     float: right; }
   @media screen and (max-width: 500px) {
@@ -78,12 +83,11 @@ body {
   body .clear {
     clear: both; }
   body footer {
-    background-color: #c8c8c7;
     height: 100%; }
     body footer ul {
       list-style: none;
       color: black;
-      font-size: 14px;
+      font-size: 22px;
       padding-top: 1px;
       padding-bottom: 1px;
       text-align: left;
@@ -97,8 +101,8 @@ body {
       body footer ul li {
         padding-left: 10%; }
       body footer ul p {
-        color: #007DC5;
-        font-weight: 400; }
+        color: #79a12f;
+        font-size: 14px; }
     body footer .contact_footer {
       /* @media only screen and (max-width: 420px){
            font-size: 12px;
@@ -107,7 +111,7 @@ body {
       justify-content: space-evenly;
       text-align: left;
       margin: 0 auto;
-      max-width: 500px;
+      max-width: 620px;
       padding-top: 14px; }
       @media only screen and (max-width: 600px) {
         body footer .contact_footer {
@@ -120,11 +124,11 @@ body {
       body footer .contact_footer p {
         color: black;
         margin: 0;
-        font-weight: 400;
-        padding-bottom: 20px; }
+        padding-bottom: 20px;
+        font-size: 14px; }
       body footer .contact_footer span {
-        color: #007DC5;
-        font-weight: 500;
-        padding-bottom: 20px; }
+        color: #79a12f;
+        padding-bottom: 20px;
+        font-size: 14px; }
 
 /*# sourceMappingURL=galeria.css.map */
